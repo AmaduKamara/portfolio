@@ -17,3 +17,5 @@ This is an exercise required creating a repo, adding a .gitignore file, setting 
 -LinkedIn: @<https://www.linkedin.com/in/amadu-kamara-3b60a25b/>
 
 -Twitter: @<https://twitter.com/DevAmkam/>
+
+-Facebook: @<https://www.facebook.com/amadus.kamara.7/>
