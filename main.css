@@ -55,7 +55,7 @@ header .menu-icon {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 0px 0px 0px 100px;
+  border-radius: 0 0 0 100px;
 }
 
 .headline .intro-text {
