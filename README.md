@@ -6,6 +6,8 @@ This is an exercise for setting ip a mobile version skeleton of my Portfolio Web
 
 - HTML and CSS
 
+- ESLint
+
 ## Getting Started
 
 This is an exercise required creating a repo, adding a .gitignore file, setting different sections of the portfolio site and linters for html&css.
