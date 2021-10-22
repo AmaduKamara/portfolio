@@ -10,7 +10,8 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  background: #fff;
+  /* background: #fff; */
+  background: #f7f7f9;
 }
 
 header {
@@ -94,4 +95,215 @@ header .menu-icon {
 
 .headline ul li {
   list-style: none;
+}
+
+/* Works Styles */
+
+.works {
+  display: grid;
+  padding: 114px 24px;
+}
+
+.works .work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin: 44px 0px;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.works .work-title {
+  margin: 12px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.work ul {
+  display: flex;
+}
+
+.right-block {
+  margin: 12px 0px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 295px;
+  margin: 12px 0px;
+}
+
+.left-block .action {
+  width: 295px;
+  height: 72px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.left-block .action button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+ul li {
+  list-style: none;
+}
+
+.tags {
+  margin: 12px 0px;
+}
+
+.tags .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin: 0px 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+}
+
+.tags .tag:first-child {
+  margin-left: 0;
+}
+
+/* About Myself Styles */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  background: #fff;
+  border-radius: 0 100px 0 0;
+}
+
+.about-myself h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 12px 0px;
+}
+
+.about-myself p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-links ul {
+  display: flex;
+}
+
+.about-links ul li {
+  list-style: none;
+}
+
+.programs,
+.frameworks,
+.skills {
+  width: 100%;
+}
+
+.resume {
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 12px 0px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.about-skills {
+  width: 327px;
+  height: 72px;
+}
+
+.program,
+.framework,
+.skill {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 12px 0px;
+}
+
+.program h4 {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.program .arrow-down,
+.framework .arrow-down,
+.skill .arrow-down {
+  width: 30px;
+  height: 25px;
+}
+
+.languages {
+  display: grid;
+}
+
+.languages .language {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 6px 0px;
+  padding: 9px 12px;
+}
+
+.languages .language p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
+.framework,
+.skill {
+  border-bottom: 1px solid #dfe1e6;
+  margin: 12px 0px;
 }

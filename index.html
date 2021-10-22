@@ -79,12 +79,12 @@
 
     <!-- The "Works" section - Projects I've worked successfully. -->
     <section class="works">
-      <div class="card">
-        <div>
+      <div class="work">
+        <div class="right-block">
           <img src="./images/tonic.png" alt="Tonic Project" />
         </div>
-        <div>
-          <h3>Tonic</h3>
+        <div class="left-block">
+          <h3 class="work-title">Tonic</h3>
           <ul>
             <li>Canopy</li>
             <li>Backend Dev</li>
@@ -94,23 +94,25 @@
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">css</li>
+            <li class="tag">javascript</li>
           </ul>
-          <button>See Project</button>
+          <div class="action">
+            <button>See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div>
+      <div class="work">
+        <div class="right-block">
           <img
             src="./images/multi-post-stories.png"
             alt="Multi-Post Stores Project 1"
           />
         </div>
-        <div>
-          <h3>Multi-Post Stores</h3>
+        <div class="left-block">
+          <h3 class="work-title">Multi-Post Stores</h3>
           <ul>
             <li>Canopy</li>
             <li>Backend Dev</li>
@@ -120,20 +122,22 @@
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">css</li>
+            <li class="tag">javascript</li>
           </ul>
-          <button>See Project</button>
+          <div class="action">
+            <button>See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div>
+      <div class="work">
+        <div class="right-block">
           <img src="./images/tonic-2.png" alt="Tonic-2 Project" />
         </div>
-        <div>
-          <h3>Tonic</h3>
+        <div class="left-block">
+          <h3 class="work-title">Tonic</h3>
           <ul>
             <li>Canopy</li>
             <li>Backend Dev</li>
@@ -143,23 +147,25 @@
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">css</li>
+            <li class="tag">javascript</li>
           </ul>
-          <button>See Project</button>
+          <div class="action">
+            <button>See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div>
+      <div class="work">
+        <div class="right-block">
           <img
             src="./images/multi-post-stories-2.png"
             alt="Multi-Post Stores Project 2"
           />
         </div>
-        <div>
-          <h3>Multi-Post Stores</h3>
+        <div class="left-block">
+          <h3 class="work-title">Multi-Post Stores</h3>
           <ul>
             <li>Canopy</li>
             <li>Backend Dev</li>
@@ -169,12 +175,14 @@
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">css</li>
+            <li class="tag">javascript</li>
           </ul>
-          <button>See Project</button>
+          <div class="action">
+            <button>See Project</button>
+          </div>
         </div>
       </div>
     </section>
@@ -189,7 +197,7 @@
           like what you see and have a project you need coded, don’t hestiate to
           contact me.
         </p>
-        <div>
+        <div class="about-links">
           <div class="connect-link"><a href="">Let's Connect</a></div>
           <ul>
             <li>
@@ -216,41 +224,85 @@
             </li>
           </ul>
         </div>
-        <button>Get my resume</button>
+        <div>
+          <button class="resume">Get my resume</button>
+        </div>
       </div>
-      <div>
+
+      <div class="programs">
+        <div class="program">
+          <h4>Languages</h4>
+          <svg
+            class="w-6 h-6 arrow-down"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </div>
+
         <div class="languages">
-          <div>
-            <h4>Languages</h4>
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </div>
-          <div>
-            <img src="./images/javascript.png" alt="Javascript">
+          <div class="language">
+            <img src="./images/javascript.png" alt="Javascript" />
             <p>JavaScript</p>
           </div>
-          <div>
-            <img src="./images/html.png" alt="HTML5">
+          <div class="language">
+            <img src="./images/html.png" alt="HTML5" />
             <p>HTML</p>
           </div>
-          <div>
-            <img src="./images/css3.png" alt="CSS3">
+          <div class="language">
+            <img src="./images/css3.png" alt="CSS3" />
             <p>CSS</p>
           </div>
         </div>
+      </div>
 
-         <div>
-          <div>
-            <h4>Frameworks</h4>
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </div>
+      <div class="frameworks">
+        <div class="framework">
+          <h4>Frameworks</h4>
+          <svg
+            class="w-6 h-6 arrow-down"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
         </div>
+      </div>
 
-        <div>
-          <div>
-            <h4>Skills</h4>
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </div>
+      <div class="skills">
+        <div class="skill">
+          <h4>Frameworks</h4>
+          <svg
+            class="w-6 h-6 arrow-down"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
         </div>
+      </div>
     </section>
   </body>
 </html>
