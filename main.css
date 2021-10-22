@@ -154,6 +154,7 @@ ul li {
   margin: 12px 0;
 }
 
+/* Active */
 .left-block .action button {
   display: flex;
   flex-direction: row;
@@ -170,6 +171,27 @@ ul li {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+}
+
+/* Hover */
+.left-block .action button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focused */
+.left-block .action button:focus {
+  background: #2230d2;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled */
+.left-block .action button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 .tags {
