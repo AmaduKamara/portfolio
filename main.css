@@ -10,7 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  background: #fff;
+  background: #f7f7f9;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
   left: 0;
 }
 
-header h1 {
+header h2 {
   color: #6070ff;
   font-size: 22px;
   font-weight: 700;
@@ -41,6 +41,7 @@ header button {
 header .menu-icon {
   width: 40px;
   color: #6070ff;
+  margin-right: 20px;
 }
 
 /* Headline Styles */
@@ -92,6 +93,262 @@ header .menu-icon {
   display: flex;
 }
 
+ul li {
+  list-style: none;
+}
+
 .headline ul li {
   list-style: none;
+}
+
+/* Works Styles */
+
+.works {
+  display: grid;
+  padding: 114px 24px;
+}
+
+.works .work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin: 44px 0;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.works .work-title {
+  margin: 12px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.work ul {
+  display: flex;
+}
+
+.right-block {
+  margin: 12px 0;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 295px;
+  margin: 12px 0;
+}
+
+.left-block .action {
+  width: 295px;
+  height: 72px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+/* Active */
+.left-block .action button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+/* Hover */
+.left-block .action button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focused */
+.left-block .action button:focus {
+  background: #2230d2;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled */
+.left-block .action button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.tags {
+  margin: 12px 0;
+}
+
+.tags .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 12px;
+  width: 89px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin: 0 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+}
+
+.tags .tag:first-child {
+  margin-left: 0;
+}
+
+/* About Myself Styles */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  background: #fff;
+  border-radius: 0 100px 0 0;
+}
+
+.about-myself h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.about-myself p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-links ul {
+  display: flex;
+}
+
+.about-links ul li {
+  list-style: none;
+}
+
+.programs,
+.frameworks,
+.skills {
+  width: 100%;
+}
+
+.resume {
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+/* Hover */
+.resume:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focused */
+.resume:focus {
+  background: #2230d2;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled */
+.resume:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.about-skills {
+  width: 327px;
+  height: 72px;
+}
+
+.program {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.program h4 {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.program .arrow-down,
+.framework .arrow-down,
+.skill .arrow-down {
+  width: 30px;
+  height: 25px;
+}
+
+.languages {
+  display: grid;
+  background: #fff;
+}
+
+.languages .language {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 9px 12px;
+}
+
+.languages .language p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
+.framework,
+.skill {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #dfe1e6;
+  margin: 12px 0;
 }
