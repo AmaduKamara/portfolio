@@ -301,14 +301,10 @@ ul li {
 
 .framework,
 .skill {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
   border-bottom: 1px solid #dfe1e6;
   margin: 12px 0;
 }
 
-.framework,
-.skill {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 0;
-  margin: 12px 0;
-}
