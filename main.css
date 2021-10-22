@@ -172,7 +172,7 @@ ul li {
 }
 
 .tags {
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .tags .tag {
@@ -184,7 +184,7 @@ ul li {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  margin: 0px 8px;
+  margin: 0 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
