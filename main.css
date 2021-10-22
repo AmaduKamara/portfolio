@@ -112,14 +112,14 @@ ul li {
   flex-direction: column;
   align-items: center;
   background: #fff;
-  margin: 44px 0px;
+  margin: 44px 0;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
 }
 
 .works .work-title {
-  margin: 12px 0px;
+  margin: 12px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -132,16 +132,16 @@ ul li {
 }
 
 .right-block {
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .left-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 295px;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .left-block .action {
@@ -150,7 +150,7 @@ ul li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .left-block .action button {
@@ -212,7 +212,7 @@ ul li {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .about-myself p {
@@ -243,7 +243,7 @@ ul li {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  margin: 12px 0px;
+  margin: 12px 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -261,7 +261,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .program h4 {
@@ -288,7 +288,7 @@ ul li {
   align-items: center;
   background: #f7f7f9;
   border-radius: 8px;
-  margin: 6px 0px;
+  margin: 6px 0;
   padding: 9px 12px;
 }
 
@@ -304,5 +304,5 @@ ul li {
 .framework,
 .skill {
   border-bottom: 1px solid #dfe1e6;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
