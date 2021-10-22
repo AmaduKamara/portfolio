@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -103,7 +103,7 @@ ul li {
 /* Works Styles */
 
 .works {
-  display: grid;
+  display: ms-grid;
   padding: 114px 24px;
 }
 
@@ -278,7 +278,7 @@ ul li {
 }
 
 .languages {
-  display: grid;
+  display: ms-grid;
   background: #fff;
 }
 
