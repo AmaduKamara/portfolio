@@ -26,5 +26,8 @@
   "homepage": "https://github.com/AmaduKamara/portfolio#readme",
   "dependencies": {
     "eslint": "^8.0.1"
+  },
+  "devDependencies": {
+    "hint": "^6.1.6"
   }
 }
