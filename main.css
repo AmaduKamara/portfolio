@@ -352,3 +352,45 @@ ul li {
   border-bottom: 1px solid #dfe1e6;
   margin: 12px 0;
 }
+
+/* Ranjeet */
+
+.footer-section {
+  display: flex;
+  padding: 114px 24px;
+  height: 604px;
+  align-items: center;
+  background-color: #6070ff;
+  background-image: url("./images/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px 0 0 0;
+}
+
+.footer-section h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.footer-section input,
+textarea {
+  width: 285px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 16px;
+}
