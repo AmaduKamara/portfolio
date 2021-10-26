@@ -366,7 +366,7 @@ ul li {
   border-radius: 100px 0 0 0;
 }
 
-.footer-info h3 {
+footer .footer-info h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -375,7 +375,7 @@ ul li {
   text-align: center;
 }
 
-.footer-info p {
+footer .footer-info p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
