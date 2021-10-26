@@ -366,7 +366,7 @@ ul li {
   border-radius: 100px 0 0 0;
 }
 
-.footer-section > footer h3 {
+.footer-info footer h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -375,7 +375,7 @@ ul li {
   color: #fff;
 }
 
-.footer-section > footer p {
+.footer-info footer p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
