@@ -393,7 +393,7 @@ textarea {
   padding: 15px 16px;
 }
 
-footer form ul li button {
+.contact-button {
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -407,21 +407,21 @@ footer form ul li button {
 }
 
 /* Hover */
-footer form ul li button:hover {
+.contact-button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Focused */
-footer form ul li button:focus {
+.contact-button:focus {
   background: #2230d2;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Disabled */
-footer form ul li button:disabled {
+.contact-button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
   border: 1px solid #c1c7d0;
