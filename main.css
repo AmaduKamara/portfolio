@@ -356,9 +356,7 @@ ul li {
 /* Ranjeet */
 
 .footer-section {
-  display: flex;
-  padding: 114px 24px;
-  height: 604px;
+  padding: 114px 24px 20px 24px;
   align-items: center;
   background-color: #6070ff;
   background-image: url("./images/header-shapes\ mobile.png");
@@ -388,9 +386,52 @@ ul li {
 
 .footer-section input,
 textarea {
-  width: 285px;
+  width: 100%;
   margin-top: 18px;
   border: none;
   border-radius: 8px;
   padding: 15px 16px;
+}
+
+.footer-section button {
+  width: 162px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+/* Hover */
+.footer-section button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focused */
+.footer-section button:focus {
+  background: #2230d2;
+  color: #fff;
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Disabled */
+.footer-section button:disabled {
+  background: #e5e5e5;
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
+}
+
+.bottom-line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 114px;
 }
