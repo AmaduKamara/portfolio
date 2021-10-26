@@ -384,7 +384,7 @@ ul li {
   color: #ebebff;
 }
 
-.footer-section footer input,
+footer form ul li input,
 textarea {
   width: 100%;
   margin-top: 18px;
@@ -393,7 +393,7 @@ textarea {
   padding: 15px 16px;
 }
 
-.footer-section footer form button {
+footer form ul li button {
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -407,21 +407,21 @@ textarea {
 }
 
 /* Hover */
-.footer-section footer form button:hover {
+footer form ul li button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Focused */
-.footer-section footer form button:focus {
+footer form ul li button:focus {
   background: #2230d2;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Disabled */
-.footer-section footer form button:disabled {
+footer form ul li button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
   border: 1px solid #c1c7d0;
