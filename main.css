@@ -366,7 +366,7 @@ ul li {
   border-radius: 100px 0 0 0;
 }
 
-footer h3 {
+.footer-section > footer h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -375,7 +375,7 @@ footer h3 {
   color: #fff;
 }
 
-footer p {
+.footer-section > footer p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -384,7 +384,7 @@ footer p {
   color: #ebebff;
 }
 
-footer input,
+.footer-section > footer input,
 textarea {
   width: 100%;
   margin-top: 18px;
@@ -393,7 +393,7 @@ textarea {
   padding: 15px 16px;
 }
 
-footer button {
+.footer-section > footer button {
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -407,21 +407,21 @@ footer button {
 }
 
 /* Hover */
-footer button:hover {
+.footer-section > footer button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Focused */
-footer button:focus {
+.footer-section > footer button:focus {
   background: #2230d2;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Disabled */
-footer button:disabled {
+.footer-section > footer button:disabled {
   background: #e5e5e5;
   color: #5e6c84;
   border: 1px solid #c1c7d0;
