@@ -375,7 +375,7 @@ footer .footer-info h3 {
   text-align: center;
 }
 
-footer .footer-info p {
+.footer-info-text {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
