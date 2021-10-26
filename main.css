@@ -366,26 +366,29 @@ ul li {
   border-radius: 100px 0 0 0;
 }
 
-.footer-section .footer-info footer h3 {
+.footer-info h3 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
   color: #fff;
+  text-align: center;
 }
 
-.footer-section .footer-info footer p {
+.footer-info p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  margin: 12px 0;
 }
 
-footer form ul li input,
+footer form input,
 textarea {
+  display: block;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   margin-top: 18px;
   border: none;
