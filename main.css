@@ -489,6 +489,10 @@ textarea {
     text-decoration: none;
   }
 
+  .connect-link a {
+    font-size: 16px;
+  }
+
   .nav-links ul li a {
     font-style: normal;
     font-weight: 500;
@@ -533,10 +537,6 @@ textarea {
 
   .connect-link {
     margin: 7px 8px;
-  }
-
-  .connect-link a {
-    font-size: 16px;
   }
 
   /* Work Styles */
