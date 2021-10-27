@@ -438,3 +438,9 @@ textarea {
   margin: auto;
   margin-top: 114px;
 }
+
+@media (min-width: 600px) {
+  body {
+    background: green;
+  }
+}
