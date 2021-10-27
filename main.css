@@ -350,7 +350,6 @@ ul li {
 
 .languages .language {
   display: flex;
-  /* align-items: center; */
   background: #f7f7f9;
   border-radius: 8px;
   margin: 6px 0;
@@ -464,8 +463,7 @@ textarea {
   margin-top: 114px;
 }
 
-/* Desktop Screen */
-/* All scrren sizes 600px and onwards */
+/* Desktop Screen - All scrren sizes 600px and onwards */
 
 @media (min-width: 600px) {
   /* Header Styles */
@@ -521,7 +519,7 @@ textarea {
     font-weight: bold;
     line-height: 60px;
     letter-spacing: 0.37px;
-    margin: 12px 0px;
+    margin: 12px 0;
   }
 
   .headline p {
@@ -529,7 +527,7 @@ textarea {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    margin: 12px 0px;
+    margin: 12px 0;
     color: #344563;
   }
 
@@ -628,7 +626,7 @@ textarea {
 
   .about-wrapper.about-texts {
     width: 447px;
-    margin: 24px 0px;
+    margin: 24px 0;
   }
 
   .about-myself h2 {
@@ -691,7 +689,7 @@ textarea {
   }
 
   .contact-button {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   footer form input,
