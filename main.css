@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Main Styles */
 
 body {
@@ -32,16 +36,14 @@ header h2 {
   padding: 10px 20px;
 }
 
-header button {
-  border: none;
-  background: transparent;
-  margin-right: 15px;
-}
-
 header .menu-icon {
   width: 40px;
   color: #6070ff;
   margin-right: 20px;
+}
+
+.nav-links {
+  display: none;
 }
 
 /* Headline Styles */
@@ -54,7 +56,7 @@ header .menu-icon {
   background-color: #fff;
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   border-radius: 0 0 0 100px;
 }
@@ -70,6 +72,7 @@ header .menu-icon {
   color: #344563;
   line-height: 24px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .connect-link {
@@ -442,5 +445,78 @@ textarea {
 @media (min-width: 600px) {
   body {
     background: green;
+  }
+
+  /* Header Styles */
+
+  header {
+    padding: 25px 10%;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links ul {
+    display: flex;
+  }
+
+  .nav-links ul li {
+    margin: 0 16px;
+    text-decoration: none;
+  }
+
+  .nav-links ul li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin: 0 10px;
+  }
+
+  /* Headline Styles */
+
+  .headline {
+    display: flex;
+    padding: 114px 10%;
+    height: 916px;
+    background-color: #fff;
+    background-image: url("./images/Header\ bg@2x.png");
+  }
+
+  .headline-texts {
+    width: 920px;
+    height: 268px;
+    margin: auto;
+  }
+
+  .headline .intro-text {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    margin: 12px 0px;
+  }
+
+  .headline p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 12px 0px;
+    color: #344563;
+  }
+
+  .connect-link {
+    margin: 7px 8px;
+  }
+
+  .connect-link a {
+    font-size: 16px;
   }
 }
