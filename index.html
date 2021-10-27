@@ -74,10 +74,10 @@
     <!-- The "Works" section - Projects I've worked successfully. -->
     <section class="works">
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one">
           <img src="./images/tonic.png" alt="Tonic Project" />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one">
           <h3 class="work-title">Tonic</h3>
           <ul>
             <li>Canopy</li>
@@ -98,14 +98,15 @@
           </div>
         </div>
       </div>
+
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one-2">
           <img
             src="./images/multi-post-stories.png"
             alt="Multi-Post Stores Project 1"
           />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
           <ul>
             <li>Canopy</li>
@@ -127,10 +128,10 @@
         </div>
       </div>
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one">
           <img src="./images/tonic-2.png" alt="Tonic-2 Project" />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one">
           <h3 class="work-title">Tonic</h3>
           <ul>
             <li>Canopy</li>
@@ -152,13 +153,13 @@
         </div>
       </div>
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one-2">
           <img
             src="./images/multi-post-stories-2.png"
             alt="Multi-Post Stores Project 2"
           />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
           <ul>
             <li>Canopy</li>
@@ -183,100 +184,106 @@
 
     <!-- The "About myself" section (placed after the projects and before the contact form): -->
     <section class="about-myself">
-      <div>
-        <h2>About Myself</h2>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <div class="about-links">
-          <div class="connect-link"><a href="">Let's Connect</a></div>
-          <ul>
-            <li><i class="fab fa-twitter network-link"></i></li>
-            <li><i class="fab fa-facebook-square network-link"></i></li>
-            <li><i class="fab fa-linkedin-in network-link"></i></li>
-            <li><i class="fab fa-github-square network-link"></i></li>
-          </ul>
-        </div>
-        <div>
-          <button class="resume" type="button">Get my resume</button>
-        </div>
-      </div>
-
-      <div class="programs">
-        <div class="program">
-          <h4>Languages</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            ></path>
-          </svg>
+      <div class="about-wrapper">
+        <div class="about-texts">
+          <h2>About <br />Myself</h2>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <div class="about-links">
+            <div class="connect-link"><a href="">Let's Connect</a></div>
+            <ul>
+              <li><i class="fab fa-twitter network-link"></i></li>
+              <li><i class="fab fa-facebook-square network-link"></i></li>
+              <li><i class="fab fa-linkedin-in network-link"></i></li>
+              <li><i class="fab fa-github-square network-link"></i></li>
+            </ul>
+          </div>
+          <div>
+            <button class="resume" type="button">Get my resume</button>
+          </div>
         </div>
 
-        <ul class="languages">
-          <li class="language">
-            <img src="./images/javascript.png" alt="Javascript" />
-            <p>JavaScript</p>
-          </li>
-          <li class="language">
-            <img src="./images/html.png" alt="HTML5" />
-            <p>HTML</p>
-          </li>
-          <li class="language">
-            <img src="./images/css3.png" alt="CSS3" />
-            <p>CSS</p>
-          </li>
-        </ul>
-      </div>
+        <div class="about-programs">
+          <div class="programs">
+            <div>
+              <div class="program">
+                <h4>Languages</h4>
+                <svg
+                  class="w-6 h-6 arrow-down"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </div>
 
-      <div class="frameworks">
-        <div class="framework">
-          <h4>Frameworks</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
-        </div>
-      </div>
+              <ul class="languages">
+                <li class="language">
+                  <img src="./images/javascript.png" alt="Javascript" />
+                  <p>JavaScript</p>
+                </li>
+                <li class="language">
+                  <img src="./images/html.png" alt="HTML5" />
+                  <p>HTML</p>
+                </li>
+                <li class="language">
+                  <img src="./images/css3.png" alt="CSS3" />
+                  <p>CSS</p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-      <div class="skills">
-        <div class="skill">
-          <h4>Frameworks</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
+          <div class="frameworks">
+            <div class="framework">
+              <h4>Frameworks</h4>
+              <svg
+                class="w-6 h-6 arrow-down"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="skill">
+              <h4>Frameworks</h4>
+              <svg
+                class="w-6 h-6 arrow-down"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </section>

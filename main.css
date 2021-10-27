@@ -225,12 +225,16 @@ ul li {
 
 /* About Myself Styles */
 .about-myself {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 114px 24px;
   background: #fff;
   border-radius: 0 100px 0 0;
+}
+
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-myself h2 {
@@ -257,6 +261,7 @@ ul li {
   list-style: none;
 }
 
+.about-programs,
 .programs,
 .frameworks,
 .skills {
@@ -266,6 +271,7 @@ ul li {
 .resume {
   width: 162px;
   height: 48px;
+  background-color: #fff;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -297,6 +303,10 @@ ul li {
   border: 1px solid #c1c7d0;
 }
 
+.about-texts {
+  width: 100%;
+}
+
 .about-skills {
   width: 327px;
   height: 72px;
@@ -324,6 +334,15 @@ ul li {
   height: 25px;
 }
 
+.frameworks .framework h4,
+.skills .skill h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
 .languages {
   display: grid;
   background: #fff;
@@ -331,11 +350,12 @@ ul li {
 
 .languages .language {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background: #f7f7f9;
   border-radius: 8px;
   margin: 6px 0;
   padding: 9px 12px;
+  margin-right: 12px;
 }
 
 .languages .language p {
@@ -344,7 +364,7 @@ ul li {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
-  margin-left: 16px;
+  margin: 16px 16px;
 }
 
 .framework,
@@ -402,6 +422,7 @@ textarea {
 .contact-button {
   width: 162px;
   height: 48px;
+  background-color: #fff;
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -417,6 +438,7 @@ textarea {
   background: #6070ff;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
 }
 
 /* Focused */
@@ -442,11 +464,10 @@ textarea {
   margin-top: 114px;
 }
 
-@media (min-width: 600px) {
-  body {
-    background: green;
-  }
+/* Desktop Screen */
+/* All scrren sizes 600px and onwards */
 
+@media (min-width: 600px) {
   /* Header Styles */
 
   header {
@@ -483,7 +504,7 @@ textarea {
 
   .headline {
     display: flex;
-    padding: 114px 10%;
+    padding: 114px 24px;
     height: 916px;
     background-color: #fff;
     background-image: url("./images/Header\ bg@2x.png");
@@ -518,5 +539,165 @@ textarea {
 
   .connect-link a {
     font-size: 16px;
+  }
+
+  /* Work Styles */
+
+  .works {
+    display: grid;
+    padding: 114px 24px;
+  }
+
+  .works .work {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .works .work-title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .work ul {
+    display: flex;
+  }
+
+  .right-block {
+    width: 544px;
+    border-radius: 8px;
+  }
+
+  .right-block img {
+    width: 100%;
+  }
+
+  .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    width: 544px;
+    margin: 12px 0;
+  }
+
+  .right-block-one {
+    order: 1;
+  }
+
+  .left-block-one {
+    order: 2;
+  }
+
+  .right-block-one-2 {
+    order: 2;
+  }
+
+  .left-block-one-2 {
+    order: 1;
+  }
+
+  .left-block .action {
+    width: 295px;
+    height: 72px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 12px 0;
+  }
+
+  /* About Styles */
+  .about-myself {
+    height: 800px;
+    padding: 114px 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-wrapper {
+    flex-direction: row;
+  }
+
+  .about-wrapper.about-texts {
+    width: 447px;
+    margin: 24px 0px;
+  }
+
+  .about-myself h2 {
+    color: #091e42;
+  }
+
+  .about-wrapper.about-programs {
+    width: 684px;
+    margin-left: 25px;
+  }
+
+  .about-texts p {
+    margin-right: 25px;
+  }
+
+  .programs {
+    display: grid;
+  }
+
+  .languages {
+    width: 450px;
+    display: flex;
+  }
+
+  .language {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .language img {
+    text-align: left;
+  }
+
+  .languages .language p {
+    margin: 16px 0;
+  }
+
+  /* Footer Styles */
+
+  .footer-section {
+    margin-top: -200px;
+    background-image: url("./images/contact\ form\ background\ shapes@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100px 0 0 0;
+  }
+
+  footer {
+    width: 801px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .footer-info {
+    width: 569px;
+    margin: auto;
+  }
+
+  .contact-button {
+    margin-top: 0px;
+  }
+
+  footer form input,
+  textarea {
+    width: 447px;
+    margin: 27px auto;
+    border-radius: 2px;
   }
 }
