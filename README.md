@@ -2,7 +2,7 @@
 
 This is an exercise for setting ip a mobile version skeleton of my Portfolio Website
 
-![image](https://user-images.githubusercontent.com/50941074/139246025-8509d0b0-e67e-460e-9408-e3fd023d0f8e.png)
+![image](https://user-images.githubusercontent.com/50941074/139254701-bcd092be-9487-4491-993c-fc0271cdf832.png)
 
 ![image](https://user-images.githubusercontent.com/50941074/139246502-189b1abd-952a-457c-b82d-8da46680c321.png)
 
