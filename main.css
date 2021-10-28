@@ -499,12 +499,13 @@ textarea {
   margin-top: 114px;
 }
 
-/* Desktop Screen - All scrren sizes 600px and 1150px. 1150px is the max for all sections in the CSS  */
-@media (min-width: 600px) {
+/* Desktop Screen - All scrren sizes within the range of 992px onwards. */
+
+@media (min-width: 992px) {
   /* Header Styles */
 
   header {
-    padding: 25px 10%;
+    padding: 25px 5%;
   }
 
   header .menu-icon {
@@ -540,6 +541,7 @@ textarea {
   /* Headline Styles */
 
   .headline {
+    width: 100%;
     display: flex;
     padding: 114px 24px;
     height: 916px;
@@ -548,7 +550,8 @@ textarea {
   }
 
   .headline-texts {
-    width: 920px;
+    width: 70%;
+    margin: auto;
     height: 268px;
     margin: auto;
   }
@@ -582,8 +585,8 @@ textarea {
   }
 
   .works .work {
-    width: 1156px;
-    height: 496px;
+    width: 980px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -666,7 +669,7 @@ textarea {
 
   /* About Styles */
   .about-myself {
-    height: 800px;
+    height: 920px;
     padding: 114px 12%;
     display: flex;
     flex-direction: row;
