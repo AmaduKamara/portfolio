@@ -563,7 +563,6 @@ textarea {
     width: 70%;
     margin: auto;
     height: 268px;
-    margin: auto;
   }
 
   .headline .intro-text {
@@ -596,7 +595,6 @@ textarea {
 
   .works .work {
     width: 980px;
-    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
