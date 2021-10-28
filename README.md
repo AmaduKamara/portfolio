@@ -2,6 +2,8 @@
 
 This is an exercise for setting ip a mobile version skeleton of my Portfolio Website
 
+![image](https://user-images.githubusercontent.com/50941074/139246025-8509d0b0-e67e-460e-9408-e3fd023d0f8e.png)
+
 ## Built With
 
 - HTML and CSS
