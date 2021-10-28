@@ -1,6 +1,6 @@
 # Portfolio: setup and mobile version skeleton
 
-This is an exercise for setting ip a mobile version skeleton of my Portfolio Website
+This is an exercise for setting ip a mobile and desktop designs of my Portfolio Website.
 
 ![image](https://user-images.githubusercontent.com/50941074/139254987-67d4c444-6794-43fb-ac12-5679c11415fb.png)
 

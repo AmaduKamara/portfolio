@@ -23,7 +23,7 @@
   <body>
     <!-- the toolbar (or header): Section 1 -->
     <header>
-      <h2>DevAmkam</h2>
+      <a href="#"><h2>DevAmkam</h2></a>
       <svg
         class="w-6 h-6 menu-icon"
         fill="none"
@@ -38,43 +38,66 @@
           d="M4 6h16M4 12h16M4 18h16"
         ></path>
       </svg>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about-myself">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- the headline section (right after the header): Section 2 -->
     <section class="headline">
-      <div>
-        <h1 class="intro-text">I’m Amadu Glad to see you!</h1>
+      <div class="headline-texts">
+        <h1 class="intro-text">I’m Amadu <br />Glad to see you!</h1>
         <p>
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <div class="connect-link"><a href="">Let's Connect</a></div>
+        <div class="connect-link"><a href="#contact-me">Let's Connect</a></div>
         <ul>
           <li>
-            <i class="fab fa-twitter network-link"></i>
+            <a href="https://twitter.com/DevAmkam" target="blank"
+              ><i class="fab fa-twitter network-link"></i
+            ></a>
           </li>
           <li>
-            <i class="fab fa-facebook-square network-link"></i>
+            <a href="https://www.facebook.com/amadus.kamara.7" target="blank"
+              ><i class="fab fa-facebook-square network-link"></i
+            ></a>
           </li>
-          <li><i class="fab fa-linkedin-in network-link"></i></li>
-          <li><i class="fab fa-github-square network-link"></i></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
+              target="blank"
+              ><i class="fab fa-linkedin-in network-link"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/AmaduKamara" target="blank"
+              ><i class="fab fa-github-square network-link"></i
+            ></a>
+          </li>
         </ul>
       </div>
     </section>
 
     <!-- The "Works" section - Projects I've worked successfully. -->
-    <section class="works">
+    <section class="works" id="works">
       <div class="work">
-        <div class="right-block">
-          <img src="./images/tonic.png" alt="Tonic Project" />
+        <div class="right-block right-block-one">
+          <img src="./images/projects/Tonic-one.png" alt="Tonic Project" />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one">
           <h3 class="work-title">Tonic</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
@@ -91,23 +114,27 @@
           </div>
         </div>
       </div>
+
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one-2">
           <img
-            src="./images/multi-post-stories.png"
+            src="./images/projects/Multi-Post-One.png"
             alt="Multi-Post Stores Project 1"
           />
         </div>
-        <div class="left-block">
+        <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -120,19 +147,21 @@
         </div>
       </div>
       <div class="work">
-        <div class="right-block">
-          <img src="./images/tonic-2.png" alt="Tonic-2 Project" />
+        <div class="right-block right-block-one">
+          <img src="./images/projects/Facebook-360.png" alt="Tonic-2 Project" />
         </div>
-        <div class="left-block">
-          <h3 class="work-title">Tonic</h3>
-          <ul>
+        <div class="left-block left-block-one">
+          <h3 class="work-title">Facebook 360</h3>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -145,22 +174,24 @@
         </div>
       </div>
       <div class="work">
-        <div class="right-block">
+        <div class="right-block right-block-one-2">
           <img
-            src="./images/multi-post-stories-2.png"
+            src="./images/projects/Uber-Navigator.png"
             alt="Multi-Post Stores Project 2"
           />
         </div>
-        <div class="left-block">
-          <h3 class="work-title">Multi-Post Stores</h3>
-          <ul>
+        <div class="left-block left-block-one-2">
+          <h3 class="work-title">Ubber Navigator</h3>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -175,107 +206,135 @@
     </section>
 
     <!-- The "About myself" section (placed after the projects and before the contact form): -->
-    <section class="about-myself">
-      <div>
-        <h2>About Myself</h2>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <div class="about-links">
-          <div class="connect-link"><a href="">Let's Connect</a></div>
-          <ul>
-            <li><i class="fab fa-twitter network-link"></i></li>
-            <li><i class="fab fa-facebook-square network-link"></i></li>
-            <li><i class="fab fa-linkedin-in network-link"></i></li>
-            <li><i class="fab fa-github-square network-link"></i></li>
-          </ul>
+    <section class="about-myself" id="about-myself">
+      <div class="about-wrapper">
+        <div class="about-texts">
+          <h2>About <br />Myself</h2>
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <div class="about-links">
+            <div class="connect-link">
+              <a href="#contact-me">Let's Connect</a>
+            </div>
+            <ul>
+              <li>
+                <a href="https://twitter.com/DevAmkam" target="blank"
+                  ><i class="fab fa-twitter network-link"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/amadus.kamara.7"
+                  target="blank"
+                  ><i class="fab fa-facebook-square network-link"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
+                  target="blank"
+                  ><i class="fab fa-linkedin-in network-link"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/AmaduKamara" target="blank"
+                  ><i class="fab fa-github-square network-link"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="resume" type="button">Get my resume</button>
+          </div>
         </div>
-        <div>
-          <button class="resume" type="button">Get my resume</button>
-        </div>
-      </div>
 
-      <div class="programs">
-        <div class="program">
-          <h4>Languages</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            ></path>
-          </svg>
-        </div>
+        <div class="about-programs">
+          <div class="programs">
+            <div>
+              <div class="program">
+                <h4>Languages</h4>
+                <svg
+                  class="w-6 h-6 arrow-down"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </div>
 
-        <ul class="languages">
-          <li class="language">
-            <img src="./images/javascript.png" alt="Javascript" />
-            <p>JavaScript</p>
-          </li>
-          <li class="language">
-            <img src="./images/html.png" alt="HTML5" />
-            <p>HTML</p>
-          </li>
-          <li class="language">
-            <img src="./images/css3.png" alt="CSS3" />
-            <p>CSS</p>
-          </li>
-        </ul>
-      </div>
+              <ul class="languages">
+                <li class="language">
+                  <img src="./images/javascript.png" alt="Javascript" />
+                  <p>JavaScript</p>
+                </li>
+                <li class="language">
+                  <img src="./images/html.png" alt="HTML5" />
+                  <p>HTML</p>
+                </li>
+                <li class="language">
+                  <img src="./images/css3.png" alt="CSS3" />
+                  <p>CSS</p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-      <div class="frameworks">
-        <div class="framework">
-          <h4>Frameworks</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
-        </div>
-      </div>
+          <div class="frameworks">
+            <div class="framework">
+              <h4>Frameworks</h4>
+              <svg
+                class="w-6 h-6 arrow-down"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </div>
+          </div>
 
-      <div class="skills">
-        <div class="skill">
-          <h4>Frameworks</h4>
-          <svg
-            class="w-6 h-6 arrow-down"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
+          <div class="skills">
+            <div class="skill">
+              <h4>Skills</h4>
+              <svg
+                class="w-6 h-6 arrow-down"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer section -->
-    <section class="footer-section">
+    <section class="footer-section" id="contact-me">
       <footer>
         <div class="footer-info">
           <h3>Contact me</h3>
