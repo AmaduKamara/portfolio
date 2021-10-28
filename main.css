@@ -112,6 +112,7 @@ ul li {
 }
 
 .works .work {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,7 +140,12 @@ ul li {
 }
 
 .right-block {
+  width: 100%;
   margin: 12px 0;
+}
+
+.right-block img {
+  width: 100%;
 }
 
 .left-block {
@@ -147,8 +153,12 @@ ul li {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  width: 295px;
+  width: 100%;
   margin: 12px 0;
+}
+
+.work.left-block > img {
+  width: 80% !important;
 }
 
 .left-block ul li {
@@ -499,7 +509,7 @@ textarea {
   margin-top: 114px;
 }
 
-/* Desktop Screen - All scrren sizes within the range of 992px onwards. */
+/* Media Queries for Desktop Screen - All scrren sizes within the range of 992px onwards. */
 
 @media (min-width: 992px) {
   /* Header Styles */
