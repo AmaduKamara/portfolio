@@ -23,7 +23,7 @@
   <body>
     <!-- the toolbar (or header): Section 1 -->
     <header>
-      <h2>DevAmkam</h2>
+      <a href="#"><h2>DevAmkam</h2></a>
       <svg
         class="w-6 h-6 menu-icon"
         fill="none"
@@ -40,9 +40,9 @@
       </svg>
       <div class="nav-links">
         <ul>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about-myself">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
         </ul>
       </div>
     </header>
@@ -72,16 +72,18 @@
     </section>
 
     <!-- The "Works" section - Projects I've worked successfully. -->
-    <section class="works">
+    <section class="works" id="works">
       <div class="work">
         <div class="right-block right-block-one">
           <img src="./images/tonic.png" alt="Tonic Project" />
         </div>
         <div class="left-block left-block-one">
           <h3 class="work-title">Tonic</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
@@ -108,9 +110,11 @@
         </div>
         <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
@@ -133,9 +137,11 @@
         </div>
         <div class="left-block left-block-one">
           <h3 class="work-title">Tonic</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
@@ -161,9 +167,11 @@
         </div>
         <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
-          <ul>
+          <ul class="work-stack">
             <li>Canopy</li>
+            <li class="dot"></li>
             <li>Backend Dev</li>
+            <li class="dot"></li>
             <li>2015</li>
           </ul>
           <p>
@@ -183,7 +191,7 @@
     </section>
 
     <!-- The "About myself" section (placed after the projects and before the contact form): -->
-    <section class="about-myself">
+    <section class="about-myself" id="about-myself">
       <div class="about-wrapper">
         <div class="about-texts">
           <h2>About <br />Myself</h2>
@@ -267,7 +275,7 @@
 
           <div class="skills">
             <div class="skill">
-              <h4>Frameworks</h4>
+              <h4>Skills</h4>
               <svg
                 class="w-6 h-6 arrow-down"
                 fill="none"
@@ -289,7 +297,7 @@
     </section>
 
     <!-- Footer section -->
-    <section class="footer-section">
+    <section class="footer-section" id="contact-me">
       <footer>
         <div class="footer-info">
           <h3>Contact me</h3>

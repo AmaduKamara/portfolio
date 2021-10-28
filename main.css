@@ -120,6 +120,7 @@ ul li {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  padding: 12px;
 }
 
 .works .work-title {
@@ -133,6 +134,8 @@ ul li {
 
 .work ul {
   display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .right-block {
@@ -146,6 +149,31 @@ ul li {
   padding: 0;
   width: 295px;
   margin: 12px 0;
+}
+
+.left-block ul li {
+  margin-right: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.work-stack li:nth-child(1) {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.work-stack li.dot {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 30px;
 }
 
 .left-block .action {
@@ -235,6 +263,14 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about-wrapper .about-texts {
+  width: 100%;
+}
+
+.about-wrapper .about-programs {
+  width: 100%;
 }
 
 .about-myself h2 {
@@ -463,8 +499,7 @@ textarea {
   margin-top: 114px;
 }
 
-/* Desktop Screen - All scrren sizes 600px and onwards */
-
+/* Desktop Screen - All scrren sizes 600px and 1150px. 1150px is the max for all sections in the CSS  */
 @media (min-width: 600px) {
   /* Header Styles */
 
@@ -555,7 +590,7 @@ textarea {
     align-items: flex-start;
     margin: 44px auto;
     border-radius: 24px;
-    padding: 24px;
+    padding: 12px;
   }
 
   .works .work-title {
@@ -571,6 +606,7 @@ textarea {
   .right-block {
     width: 544px;
     border-radius: 8px;
+    padding: 12px;
   }
 
   .right-block img {
@@ -581,9 +617,26 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 24px;
+    padding: 12px;
     width: 544px;
     margin: 12px 0;
+  }
+
+  .left-block ul li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .work-stack li:nth-child(1) {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .right-block-one {
@@ -624,8 +677,8 @@ textarea {
     flex-direction: row;
   }
 
-  .about-wrapper.about-texts {
-    width: 447px;
+  .about-wrapper .about-texts {
+    width: 40%;
     margin: 24px 0;
   }
 
@@ -633,8 +686,8 @@ textarea {
     color: #091e42;
   }
 
-  .about-wrapper.about-programs {
-    width: 684px;
+  .about-wrapper .about-programs {
+    width: 60%;
     margin-left: 25px;
   }
 
