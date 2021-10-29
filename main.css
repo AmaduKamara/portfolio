@@ -762,4 +762,38 @@ textarea {
     margin: 27px auto;
     border-radius: 2px;
   }
+
+  /* Animations And Transitions */
+  button {
+    /* background-color: #6b778c; */
+    transition: background-color 2s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #396df2;
+  }
+
+  .logo {
+    transition: tranform 3s;
+    transition: 1s ease-in-out;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+
+  .footer-info-text {
+    transition: transform 3s;
+  }
+
+  .footer-info-text:hover {
+    transform: translate(25px);
+  }
+
+  .right-block img:hover {
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.04);
+  }
 }
