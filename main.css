@@ -476,7 +476,6 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  transition: 2s ease-in;
 }
 
 /* Hover */
@@ -762,5 +761,11 @@ textarea {
     width: 447px;
     margin: 27px auto;
     border-radius: 2px;
+  }
+
+  /* Animations And Transitions */
+  .resume {
+    transition: 1s ease-in;
+    cursor: pointer;
   }
 }
