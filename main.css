@@ -765,7 +765,30 @@ textarea {
 
   /* Animations And Transitions */
   .resume {
-    transition: 1s ease-in;
-    cursor: pointer;
+    transition: background-color 2s;
+    transition-delay: 2s;
+    /* cursor: pointer; */
   }
+
+  .resume:hover {
+    background-color: #396df2;
+  }
+
+  .logo {
+    transition: tranform 3s;
+    transition: 1s ease-in-out;
+  }
+
+  .logo:hover  {
+    transform: rotate(360deg);
+  }
+
+  .footer-info-text {
+    transition: transform 3s;
+  }
+
+  .footer-info-text:hover {
+    transform: translate(25px);
+  }
+
 }
