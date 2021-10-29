@@ -764,13 +764,13 @@ textarea {
   }
 
   /* Animations And Transitions */
-  .resume {
+  button {
+    /* background-color: #6b778c; */
     transition: background-color 2s;
-    transition-delay: 2s;
-    /* cursor: pointer; */
+    cursor: pointer;
   }
 
-  .resume:hover {
+  button:hover {
     background-color: #396df2;
   }
 
@@ -779,7 +779,7 @@ textarea {
     transition: 1s ease-in-out;
   }
 
-  .logo:hover  {
+  .logo:hover {
     transform: rotate(360deg);
   }
 
@@ -791,4 +791,9 @@ textarea {
     transform: translate(25px);
   }
 
+  .right-block img:hover {
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1.04);
+  }
 }
