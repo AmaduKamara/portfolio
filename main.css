@@ -56,8 +56,7 @@ header .menu-icon {
   background-color: #fff;
   background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   border-radius: 0 0 0 100px;
 }
 
@@ -556,7 +555,9 @@ textarea {
     padding: 114px 24px;
     height: 916px;
     background-color: #fff;
-    background-image: url("./images/Header\ bg@2x.png");
+    background-image: url("./images/Header\ bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .headline-texts {
