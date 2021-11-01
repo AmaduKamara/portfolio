@@ -12,6 +12,10 @@ This is an exercise for setting ip a mobile and desktop designs of my Portfolio 
 
 - ESLint
 
+## Live Demo
+
+<a href="https://amadukamara.github.io/portfolio/">Portfolio Website Link</a>
+
 ## Getting Started
 
 This is an exercise required creating a repo, adding a .gitignore file, setting different sections of the portfolio site and linters for html&css.
@@ -34,3 +38,9 @@ Feel free to check the <a href="https://github.com/AmaduKamara/portfolio/issues"
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse code reviewers for your reviews. Your reviews made my code better and enhanced the look of my Portfolio website.
+- Thanks to my coding partner, Ranjeet Singh for collaborating with me on this project. It's great working with you on this.
+- And most importantly, thanks, to Microverse for the opportunity given in making me a Professional remote Software developer. I am looking forward to becoming a great one.
