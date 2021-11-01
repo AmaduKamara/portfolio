@@ -14,7 +14,7 @@ This is an exercise for setting ip a mobile and desktop designs of my Portfolio 
 
 ## Live Demo
 
-<a href="https://amadukamara.github.io/portfolio/" target="_blank">Portfolio Website Link</a>
+<a href="https://amadukamara.github.io/portfolio/">Portfolio Website Link</a>
 
 ## Getting Started
 
