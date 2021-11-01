@@ -12,6 +12,10 @@ This is an exercise for setting ip a mobile and desktop designs of my Portfolio 
 
 - ESLint
 
+## Live Demo
+
+<a href="https://amadukamara.github.io/portfolio/" target="blank">Portfolio Website Link</a>
+
 ## Getting Started
 
 This is an exercise required creating a repo, adding a .gitignore file, setting different sections of the portfolio site and linters for html&css.
