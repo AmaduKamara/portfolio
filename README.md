@@ -1,4 +1,4 @@
-# Portfolio: setup and mobile version skeleton
+# DevAmkam's Portfolio Website - Mobile and Desktop View
 
 This is an exercise for setting ip a mobile and desktop designs of my Portfolio Website.
 

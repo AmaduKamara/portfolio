@@ -121,6 +121,12 @@ ul li {
   box-sizing: border-box;
   border-radius: 16px;
   padding: 12px;
+  transition: 1s ease-in-out;
+}
+
+.works .work:hover {
+  box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #6070ff;
 }
 
 .works .work-title {
@@ -189,6 +195,10 @@ ul li {
   border-radius: 30px;
 }
 
+button {
+  text-align: center;
+}
+
 .left-block .action {
   width: 295px;
   height: 72px;
@@ -247,7 +257,6 @@ ul li {
   flex-direction: row;
   justify-content: center;
   padding: 4px 12px;
-  width: 89px;
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
@@ -262,6 +271,10 @@ ul li {
 
 .tags .tag:first-child {
   margin-left: 0;
+}
+
+.tags .ruby {
+  display: none;
 }
 
 /* About Myself Styles */
@@ -329,6 +342,7 @@ ul li {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+  text-align: center;
 }
 
 /* Hover */
@@ -475,6 +489,7 @@ textarea {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+  text-align: center;
 }
 
 /* Hover */
@@ -632,6 +647,10 @@ textarea {
     padding: 12px;
     width: 544px;
     margin: 12px 0;
+  }
+
+  .tags .ruby {
+    display: block;
   }
 
   .left-block ul li {
