@@ -19,7 +19,7 @@ body {
 
 header {
   width: 100%;
-  height: 48px;
+  height: 60px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -27,6 +27,9 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  position: relative;
+  line-height: 60px;
+  position: sticky;
 }
 
 header h2 {
@@ -34,12 +37,24 @@ header h2 {
   font-size: 22px;
   font-weight: 700;
   padding: 10px 20px;
+  margin-top: 10px;
 }
 
 header .menu-icon {
-  width: 40px;
-  background-color: #6070ff;
+  position: absolute;
+  top: 1;
+  right: 0;
+  display: block;
   margin-right: 20px;
+  cursor: pointer;
+}
+
+header .menu-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-top: 7px;
+  background-color: #6070ff;
 }
 
 
@@ -55,9 +70,9 @@ header .menu-icon {
   height: 604px;
   align-items: center;
   background-color: #fff;
-  background-image: url("./images/header-shapes\ mobile.png");
+  background-image: url("./images/Header\ bg.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-radius: 0 0 0 100px;
 }
 
