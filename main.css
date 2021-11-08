@@ -38,9 +38,10 @@ header h2 {
 
 header .menu-icon {
   width: 40px;
-  color: #6070ff;
+  background-color: #6070ff;
   margin-right: 20px;
 }
+
 
 .nav-links {
   display: none;
