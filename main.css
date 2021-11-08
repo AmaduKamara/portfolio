@@ -494,6 +494,54 @@ textarea {
 @media (min-width: 992px) {
   /* Header Styles */
 
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #fff;
+    width: 100%;
+  }
+
+  header .logo {
+    font-size: 30px;
+    line-height: 60px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  header nav {
+    float: right;
+  }
+
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  header nav ul li {
+    list-style: none;
+  }
+
+  header nav ul li a {
+    color: #344563;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .menu-toggle {
+    float: right;
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 50px;
+    display: none;
+  }
+
   /* Headline Styles */
 
   .headline {
