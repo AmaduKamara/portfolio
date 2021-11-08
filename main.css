@@ -57,9 +57,17 @@ header .menu-icon span {
   background-color: #6070ff;
 }
 
-
 .nav-links {
-  display: none;
+  display: block;
+  width: 100%;
+  background-color: #6070ff;
+  position: absolute;
+  height: calc(100vh - 60px);
+  top: 60px;
+}
+
+.nav-links ul {
+  padding: 0 24px;
 }
 
 /* Headline Styles */
@@ -100,11 +108,6 @@ header .menu-icon span {
   color: #7f8cff;
   line-height: 24px;
   text-decoration: none;
-}
-
-.network-link {
-  color: #505f79;
-  width: 40px;
 }
 
 .headline ul {
