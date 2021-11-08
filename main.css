@@ -17,6 +17,41 @@ body {
   background: #f7f7f9;
 }
 
+/* Navigation header styles */
+
+header {
+  padding: 0 24px;
+}
+
+.menu-toggle {
+  display: block;
+}
+
+.menu-toggle span {
+  width: 30px;
+  height: 3px;
+  background-color: #6070ff;
+}
+
+.header nav {
+  position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: #333;
+    top: 60px;
+    left: -100%;
+    transition: 0.5s ease-in-out;
+}
+
+header nav.visible {
+  left: 0;
+}
+
+header nav ul li {
+  text-align: left;
+  border-bottom: 1px solid #4e4e4e;
+}
+
 /* Headline Styles */
 
 .headline {
