@@ -606,21 +606,18 @@ textarea {
   }
 
   header .logo {
-    transition: tranform 3s;
-    transition: 1s ease-in-out;
-  }
-
-  header .logo:hover {
-    transform: rotate(360deg);
-  }
-
-  header .logo {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
     position: inherit;
+    transition: tranform 3s;
+    transition: 1s ease-in-out;
+  }
+
+  header .logo:hover {
+    transform: rotate(360deg);
   }
 
   .navbar {
