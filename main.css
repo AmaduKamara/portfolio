@@ -142,6 +142,10 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   margin-left: 0;
 }
 
+.network-link {
+  color: #2f3135;
+}
+
 .headline p {
   color: #344563;
   line-height: 24px;
@@ -718,6 +722,10 @@ textarea {
 
   .connect-link {
     margin: 7px 8px;
+  }
+
+  .network-link {
+    color: #2f3135;
   }
 
   /* Work Styles */
