@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
+
 /* Main Styles */
 
 body {
@@ -45,8 +49,7 @@ header .logo {
   top: 0;
   left: -100%;
   opacity: 0;
-  transform: all 0.5s ease-in-out;
-  position: fixed;
+  transition: all 0.5s ease-in-out;
   backdrop-filter: blur(2px);
 }
 
@@ -75,7 +78,6 @@ header .logo {
   right: 3%;
   margin-top: 10px;
   z-index: 99;
-  transition: translate(5%, 20%);
 }
 
 .menu-toggle {
@@ -88,9 +90,6 @@ header .logo {
   background-color: #6070ff;
   margin: 8px auto;
   transition: all 0.5s ease-in-out;
-}
-
-.menu-toggle .bar {
   display: block;
 }
 
@@ -167,10 +166,6 @@ header .menu-toggle.is-active .bar:nth-child(3) {
 
 .headline ul {
   display: flex;
-}
-
-ul li {
-  list-style: none;
 }
 
 .headline ul li {
@@ -606,7 +601,17 @@ textarea {
   header {
     width: 100%;
     background-color: #fff;
-    position: fixed;
+    position: relative;
+    padding: 0;
+  }
+
+  header .logo {
+    transition: tranform 3s;
+    transition: 1s ease-in-out;
+  }
+
+  header .logo:hover {
+    transform: rotate(360deg);
   }
 
   header .logo {
@@ -616,12 +621,6 @@ textarea {
     line-height: 20px;
     color: #6070ff;
     position: inherit;
-  }
-
-  header {
-    position: relative;
-    background: #fff;
-    padding: 0;
   }
 
   .navbar {
@@ -664,16 +663,13 @@ textarea {
     background-color: #6070ff;
     margin: 8px auto;
     transition: all 0.5s ease-in-out;
+    display: none;
   }
 
   #mobile-menu {
     position: absolute;
     top: 10%;
     right: 5%;
-    display: none;
-  }
-
-  .menu-toggle .bar {
     display: none;
   }
 
@@ -787,6 +783,11 @@ textarea {
     color: #6b778c;
   }
 
+  .about-links ul li {
+    margin: 0 20px;
+    margin-left: 0;
+  }
+
   .work-stack li:nth-child(1) {
     text-transform: uppercase;
     font-style: normal;
@@ -837,11 +838,6 @@ textarea {
   .about-wrapper .about-texts {
     width: 40%;
     margin: 24px 0;
-  }
-
-  .about-links ul li {
-    margin: 0 20px;
-    margin-left: 0;
   }
 
   .about-myself h2 {
@@ -923,15 +919,6 @@ textarea {
 
   button:hover {
     background-color: #396df2;
-  }
-
-  .logo {
-    transition: tranform 3s;
-    transition: 1s ease-in-out;
-  }
-
-  .logo:hover {
-    transform: rotate(360deg);
   }
 
   .footer-info-text {
