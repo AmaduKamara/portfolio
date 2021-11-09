@@ -15,42 +15,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   background: #f7f7f9;
+  overflow-x: hidden;
 }
 
-/* Navigation header styles */
-
-header {
-  padding: 0 24px;
-}
-
-.menu-toggle {
-  display: block;
-}
-
-.menu-toggle span {
-  width: 30px;
-  height: 3px;
-  background-color: #6070ff;
-}
-
-.header nav {
-  position: absolute;
-    width: 100%;
-    height: calc(100vh - 60px);
-    background: #333;
-    top: 60px;
-    left: -100%;
-    transition: 0.5s ease-in-out;
-}
-
-header nav.visible {
-  left: 0;
-}
-
-header nav ul li {
-  text-align: left;
-  border-bottom: 1px solid #4e4e4e;
-}
 
 /* Headline Styles */
 
@@ -71,6 +38,11 @@ header nav ul li {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
+}
+
+.headline-texts ul li {
+  margin: 0 20px;
+  margin-left: 0;
 }
 
 .headline p {
@@ -177,7 +149,8 @@ ul li {
 }
 
 .about-links ul li {
-  list-style: none;
+  margin: 0 20px;
+  margin-left: 0;
 }
 
 .work-stack li:nth-child(1) {
@@ -529,53 +502,8 @@ textarea {
 @media (min-width: 992px) {
   /* Header Styles */
 
-  header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 100px;
-    background: #fff;
-    width: 100%;
-  }
 
-  header .logo {
-    font-size: 30px;
-    line-height: 60px;
-    float: left;
-    font-weight: bold;
-    text-decoration: none;
-    color: #6070ff;
-  }
-
-  header nav {
-    float: right;
-  }
-
-  header nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  header nav ul li {
-    list-style: none;
-  }
-
-  header nav ul li a {
-    color: #344563;
-    line-height: 60px;
-    padding: 0 20px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .menu-toggle {
-    float: right;
-    cursor: pointer;
-    line-height: 60px;
-    font-size: 50px;
-    display: none;
-  }
+  /* End of Header Styles */
 
   /* Headline Styles */
 
