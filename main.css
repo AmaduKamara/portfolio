@@ -94,6 +94,28 @@ header .logo {
   display: block;
 }
 
+/* Toggles the ha,mburger menu */
+header .menu-toggle.is-active .bar:nth-child(2) {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+header .menu-toggle.is-active .bar:nth-child(1) {
+  transform: translateY(-4px) rotate(45deg);
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  position: fixed;
+  margin-top: 20px;
+}
+
+header .menu-toggle.is-active .bar:nth-child(3) {
+  transform: translateY(-22px) rotate(-45deg);
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  position: fixed;
+  margin-top: 20px;
+}
+
 /* Headline Styles */
 
 .headline {
