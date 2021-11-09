@@ -18,6 +18,81 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  position: relative;
+  background: #fff;
+  padding: 26px 28px;
+}
+
+header .logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  position: absolute;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  background: #6070ffc7;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  padding: 40px 28px;
+  top: 0;
+  left: -100%;
+  opacity: 0;
+  transform: all 0.5s ease-in-out;
+  position: fixed;
+  backdrop-filter: blur(2px);
+}
+
+.nav-menu li {
+  padding: 20px 0;
+}
+
+.nav-menu .nav-links {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.nav-menu.active {
+  background: #6070fff3;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  margin-top: 10px;
+  z-index: 99;
+  transition: translate(5%, 20%);
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 8px auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-toggle .bar {
+  display: block;
+}
 
 /* Headline Styles */
 
@@ -507,7 +582,7 @@ textarea {
     background-color: #fff;
     position: fixed;
   }
-  
+
   header .logo {
     font-style: normal;
     font-weight: bold;
@@ -516,13 +591,13 @@ textarea {
     color: #6070ff;
     position: inherit;
   }
-  
+
   header {
     position: relative;
     background: #fff;
     padding: 0;
   }
-  
+
   .navbar {
     padding: 25px 115px;
     display: flex;
@@ -543,7 +618,7 @@ textarea {
     padding: 0;
     background-color: #fff;
   }
-  
+
   .nav-menu .nav-links {
     padding: 0 16px;
     font-style: normal;
@@ -552,11 +627,11 @@ textarea {
     line-height: 20px;
     color: #344563;
   }
-  
+
   .nav-menu li {
     padding: 0;
   }
-  
+
   .menu-toggle .bar {
     width: 30px;
     height: 3px;
@@ -564,18 +639,17 @@ textarea {
     margin: 8px auto;
     transition: all 0.5s ease-in-out;
   }
-  
+
   #mobile-menu {
     position: absolute;
     top: 10%;
     right: 5%;
     display: none;
   }
-  
+
   .menu-toggle .bar {
     display: none;
   }
-  
 
   /* End of Header Styles */
 
