@@ -89,3 +89,60 @@ document.querySelector('.multipost-css').textContent = projects[1].technologies[
 document.querySelector('.multipost-javascript').textContent =
   projects[1].technologies[2];
 document.querySelector('.multipost-ruby').textContent = projects[1].technologies[3];
+
+// Facebook360-Store Modal Details
+const openFacebookModal = document.querySelector('#open-facebook-modal');
+const facebookModalContainer = document.querySelector('.facebook-modal-container');
+const closeFacebookModal = document.querySelector('#facebook-modal-close');
+
+openFacebookModal.addEventListener('click', () => {
+  facebookModalContainer.classList.add('show');
+});
+
+closeFacebookModal.addEventListener('click', () => {
+  facebookModalContainer.classList.remove('show');
+});
+
+document.querySelector('.facebook-title').textContent = projects[2].name;
+
+document.querySelector('.facebook-stack1').textContent =
+  projects[2].stacks[0].toUpperCase();
+document.querySelector('.facebook-stack2').textContent = projects[2].stacks[1];
+document.querySelector('.facebook-stack3').textContent = projects[2].stacks[2];
+document.querySelector('.facebook-description').textContent =
+  projects[2].description;
+document.querySelector('.facebook-image').src = projects[2].featuredImage;
+document.querySelector('.facebook-html').textContent = projects[2].technologies[0];
+document.querySelector('.facebook-css').textContent = projects[2].technologies[1];
+document.querySelector('.facebook-javascript').textContent =
+  projects[2].technologies[2];
+document.querySelector('.facebook-ruby').textContent = projects[2].technologies[3];
+
+
+// Uber Modal Details
+const openUberModal = document.querySelector('#open-uber-modal');
+const uberModalContainer = document.querySelector('.uber-modal-container');
+const closeUberModal = document.querySelector('#uber-modal-close');
+
+openUberModal.addEventListener('click', () => {
+  uberModalContainer.classList.add('show');
+});
+
+closeUberModal.addEventListener('click', () => {
+  uberModalContainer.classList.remove('show');
+});
+
+document.querySelector('.uber-title').textContent = projects[3].name;
+
+document.querySelector('.uber-stack1').textContent =
+  projects[3].stacks[0].toUpperCase();
+document.querySelector('.uber-stack2').textContent = projects[3].stacks[1];
+document.querySelector('.uber-stack3').textContent = projects[3].stacks[2];
+document.querySelector('.uber-description').textContent =
+  projects[3].description;
+document.querySelector('.uber-image').src = projects[3].featuredImage;
+document.querySelector('.uber-html').textContent = projects[3].technologies[0];
+document.querySelector('.uber-css').textContent = projects[3].technologies[1];
+document.querySelector('.uber-javascript').textContent =
+  projects[3].technologies[2];
+document.querySelector('.uber-ruby').textContent = projects[3].technologies[3];
