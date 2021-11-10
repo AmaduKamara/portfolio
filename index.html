@@ -18,6 +18,7 @@
     />
 
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/tonic.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -28,9 +29,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-W80PCKETEE");
+      gtag('config', 'G-W80PCKETEE');
     </script>
     <title>Amkam's Portfolio</title>
   </head>
@@ -122,7 +123,63 @@
             <li class="tag">javascript</li>
           </ul>
           <div class="action">
-            <button type="button">See Project</button>
+            <button type="button" id="open-tonic-modal">See Project</button>
+          </div>
+        </div>
+        <!-- Work 1 Modal -->
+        <div class="tonic-modal-container" id="tonic-modal-container">
+          <div class="tonic-modal">
+            <h1 class="tonic-title"></h1>
+            <div class="tonic-stacks">
+              <ul>
+                <li class="tonic-stack1"></li>
+                <li class="tonic-stack2"></li>
+                <li class="tonic-stack3"></li>
+              </ul>
+            </div>
+            <div class="image-holder">
+              <img src="" alt="Tonic" class="tonic-image" />
+            </div>
+            <div class="tonic-contents">
+              <p class="tonic-description"></p>
+              <div class="technologies">
+                <ul>
+                  <li class="tonic-html"></li>
+                  <li class="tonic-css"></li>
+                  <li class="tonic-javascript"></li>
+                  <li class="tonic-ruby">ruby on rails</li>
+                </ul>
+              </div>
+              <div class="network">
+                <a
+                  href="https://amadukamara.github.io/portfolio/"
+                  target="_blank"
+                  ><span>See Live</span>
+                  <svg
+                    style="width: 20px; height: 20px; color: #6070ff"
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path></svg
+                ></a>
+                <a href="https://github.com/AmaduKamara" target="_blank">
+                  <span>See Source</span>
+                  <i
+                    style="color: #6070ff"
+                    class="fab fa-github-square network-link"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <button id="tonic-modal-close" type="button">X</button>
           </div>
         </div>
       </div>
@@ -159,6 +216,7 @@
           </div>
         </div>
       </div>
+
       <div class="work">
         <div class="right-block right-block-one">
           <img src="./images/projects/Facebook-360.png" alt="Tonic-2 Project" />
@@ -187,6 +245,7 @@
           </div>
         </div>
       </div>
+
       <div class="work">
         <div class="right-block right-block-one-2">
           <img
@@ -382,5 +441,6 @@
       <div class="bottom-line"></div>
     </section>
     <script src="app.js" type="text/javascript"></script>
+    <script src="data.js" type="text/javascript"></script>
   </body>
 </html>
