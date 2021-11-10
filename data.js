@@ -78,15 +78,21 @@ const closeMultipostModal = document.querySelector('#multipost-modal-close');
 
 openMultipostModal.addEventListener('click', (e) => {
   const multi = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { name, description, featuredImage, technologies, stacks } = multi;
-  const [canopy, backend, year] = stacks;
-  const [html, css, js, ruby] = technologies;
-  document.querySelector('.multipost-title').textContent = name;
+  const {
+    name: projectName,
+    description: projectDescription,
+    featuredImage: projectFeaturedImage,
+    technologies: projectTechnologies,
+    stacks: projectStacks,
+  } = multi;
+  const [canopy, backend, year] = projectStacks;
+  const [html, css, js, ruby] = projectTechnologies;
+  document.querySelector('.multipost-title').textContent = projectName;
   document.querySelector('.multipost-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.multipost-stack2').textContent = backend;
   document.querySelector('.multipost-stack3').textContent = year;
-  document.querySelector('.multipost-description').textContent = featuredImage;
-  document.querySelector('.multipost-image').src = description;
+  document.querySelector('.multipost-description').textContent = projectDescription;
+  document.querySelector('.multipost-image').src = projectFeaturedImage;
   document.querySelector('.multipost-html').textContent = html;
   document.querySelector('.multipost-css').textContent = css;
   document.querySelector('.multipost-javascript').textContent = js;
@@ -106,15 +112,21 @@ const closeFacebookModal = document.querySelector('#facebook-modal-close');
 
 openFacebookModal.addEventListener('click', (e) => {
   const fbook = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { name, description, featuredImage, technologies, stacks } = fbook;
-  const [canopy, backend, year] = stacks;
-  const [html, css, js, ruby] = technologies;
-  document.querySelector('.facebook-title').textContent = name;
+  const {
+    name: projectName,
+    description: projectDescription,
+    featuredImage: projectFeaturedImage,
+    technologies: projectTechnologies,
+    stacks: projectStacks,
+  } = fbook;
+  const [canopy, backend, year] = projectStacks;
+  const [html, css, js, ruby] = projectTechnologies;
+  document.querySelector('.facebook-title').textContent = projectName;
   document.querySelector('.facebook-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.facebook-stack2').textContent = backend;
   document.querySelector('.facebook-stack3').textContent = year;
-  document.querySelector('.facebook-description').textContent = description;
-  document.querySelector('.facebook-image').src = featuredImage;
+  document.querySelector('.facebook-description').textContent = projectDescription;
+  document.querySelector('.facebook-image').src = projectFeaturedImage;
   document.querySelector('.facebook-html').textContent = html;
   document.querySelector('.facebook-css').textContent = css;
   document.querySelector('.facebook-javascript').textContent = js;
@@ -134,15 +146,21 @@ const closeUberModal = document.querySelector('#uber-modal-close');
 
 openUberModal.addEventListener('click', (e) => {
   const uber = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { name, description, featuredImage, technologies, stacks } = uber;
-  const [canopy, backend, year] = stacks;
-  const [html, css, js, ruby] = technologies;
-  document.querySelector('.uber-title').textContent = name;
+  const {
+    name: projectName,
+    description: projectDescription,
+    featuredImage: projectFeaturedImage,
+    technologies: projectTechnologies,
+    stacks: projectStacks,
+  } = uber;
+  const [canopy, backend, year] = projectStacks;
+  const [html, css, js, ruby] = projectTechnologies;
+  document.querySelector('.uber-title').textContent = projectName;
   document.querySelector('.uber-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.uber-stack2').textContent = backend;
   document.querySelector('.uber-stack3').textContent = year;
-  document.querySelector('.uber-description').textContent = description;
-  document.querySelector('.uber-image').src = featuredImage;
+  document.querySelector('.uber-description').textContent = projectDescription;
+  document.querySelector('.uber-image').src = projectFeaturedImage;
   document.querySelector('.uber-html').textContent = html;
   document.querySelector('.uber-css').textContent = css;
   document.querySelector('.uber-javascript').textContent = js;
