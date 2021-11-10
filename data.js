@@ -60,3 +60,32 @@ document.querySelector('.tonic-css').textContent = projects[0].technologies[1];
 document.querySelector('.tonic-javascript').textContent =
   projects[0].technologies[2];
 document.querySelector('.tonic-ruby').textContent = projects[0].technologies[3];
+
+
+// Multipost-Store Modal Details
+const openMultipostModal = document.querySelector('#open-multipost-modal');
+const multipostModalContainer = document.querySelector('.multipost-modal-container');
+const closeMultipostModal = document.querySelector('#multipost-modal-close');
+
+openMultipostModal.addEventListener('click', () => {
+  multipostModalContainer.classList.add('show');
+});
+
+closeMultipostModal.addEventListener('click', () => {
+  multipostModalContainer.classList.remove('show');
+});
+
+document.querySelector('.multipost-title').textContent = projects[1].name;
+
+document.querySelector('.multipost-stack1').textContent =
+  projects[1].stacks[0].toUpperCase();
+document.querySelector('.multipost-stack2').textContent = projects[1].stacks[1];
+document.querySelector('.multipost-stack3').textContent = projects[1].stacks[2];
+document.querySelector('.multipost-description').textContent =
+  projects[1].description;
+document.querySelector('.multipost-image').src = projects[1].featuredImage;
+document.querySelector('.multipost-html').textContent = projects[1].technologies[0];
+document.querySelector('.multipost-css').textContent = projects[1].technologies[1];
+document.querySelector('.multipost-javascript').textContent =
+  projects[1].technologies[2];
+document.querySelector('.multipost-ruby').textContent = projects[1].technologies[3];
