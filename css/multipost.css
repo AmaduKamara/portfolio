@@ -105,6 +105,12 @@
   padding: 8px;
 }
 
+.multipost-contents .network svg {
+  width: 20px;
+  height: 20px;
+  color: #6070ff;
+}
+
 .multipost-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
