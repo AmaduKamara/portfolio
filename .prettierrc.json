@@ -1,5 +1,5 @@
 {
   "singleQuote": true,
-  "printWidth": 80,
+  "printWidth": 100,
   "prettier.semi": false
 }
