@@ -58,7 +58,6 @@ document.querySelector('.tonic-css').textContent = projects[0].technologies[1];
 document.querySelector('.tonic-javascript').textContent = projects[0].technologies[2];
 document.querySelector('.tonic-ruby').textContent = projects[0].technologies[3];
 
-
 // Multipost-Store Modal Details
 const openMultipostModal = document.querySelector('#open-multipost-modal');
 const multipostModalContainer = document.querySelector('.multipost-modal-container');
@@ -74,17 +73,14 @@ closeMultipostModal.addEventListener('click', () => {
 
 document.querySelector('.multipost-title').textContent = projects[1].name;
 
-document.querySelector('.multipost-stack1').textContent =
-  projects[1].stacks[0].toUpperCase();
+document.querySelector('.multipost-stack1').textContent = projects[1].stacks[0].toUpperCase();
 document.querySelector('.multipost-stack2').textContent = projects[1].stacks[1];
 document.querySelector('.multipost-stack3').textContent = projects[1].stacks[2];
-document.querySelector('.multipost-description').textContent =
-  projects[1].description;
+document.querySelector('.multipost-description').textContent = projects[1].description;
 document.querySelector('.multipost-image').src = projects[1].featuredImage;
 document.querySelector('.multipost-html').textContent = projects[1].technologies[0];
 document.querySelector('.multipost-css').textContent = projects[1].technologies[1];
-document.querySelector('.multipost-javascript').textContent =
-  projects[1].technologies[2];
+document.querySelector('.multipost-javascript').textContent = projects[1].technologies[2];
 document.querySelector('.multipost-ruby').textContent = projects[1].technologies[3];
 
 // Facebook360-Store Modal Details
@@ -102,19 +98,15 @@ closeFacebookModal.addEventListener('click', () => {
 
 document.querySelector('.facebook-title').textContent = projects[2].name;
 
-document.querySelector('.facebook-stack1').textContent =
-  projects[2].stacks[0].toUpperCase();
+document.querySelector('.facebook-stack1').textContent = projects[2].stacks[0].toUpperCase();
 document.querySelector('.facebook-stack2').textContent = projects[2].stacks[1];
 document.querySelector('.facebook-stack3').textContent = projects[2].stacks[2];
-document.querySelector('.facebook-description').textContent =
-  projects[2].description;
+document.querySelector('.facebook-description').textContent = projects[2].description;
 document.querySelector('.facebook-image').src = projects[2].featuredImage;
 document.querySelector('.facebook-html').textContent = projects[2].technologies[0];
 document.querySelector('.facebook-css').textContent = projects[2].technologies[1];
-document.querySelector('.facebook-javascript').textContent =
-  projects[2].technologies[2];
+document.querySelector('.facebook-javascript').textContent = projects[2].technologies[2];
 document.querySelector('.facebook-ruby').textContent = projects[2].technologies[3];
-
 
 // Uber Modal Details
 const openUberModal = document.querySelector('#open-uber-modal');
@@ -131,15 +123,12 @@ closeUberModal.addEventListener('click', () => {
 
 document.querySelector('.uber-title').textContent = projects[3].name;
 
-document.querySelector('.uber-stack1').textContent =
-  projects[3].stacks[0].toUpperCase();
+document.querySelector('.uber-stack1').textContent = projects[3].stacks[0].toUpperCase();
 document.querySelector('.uber-stack2').textContent = projects[3].stacks[1];
 document.querySelector('.uber-stack3').textContent = projects[3].stacks[2];
-document.querySelector('.uber-description').textContent =
-  projects[3].description;
+document.querySelector('.uber-description').textContent = projects[3].description;
 document.querySelector('.uber-image').src = projects[3].featuredImage;
 document.querySelector('.uber-html').textContent = projects[3].technologies[0];
 document.querySelector('.uber-css').textContent = projects[3].technologies[1];
-document.querySelector('.uber-javascript').textContent =
-  projects[3].technologies[2];
+document.querySelector('.uber-javascript').textContent = projects[3].technologies[2];
 document.querySelector('.uber-ruby').textContent = projects[3].technologies[3];
