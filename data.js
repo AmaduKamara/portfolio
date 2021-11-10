@@ -48,17 +48,14 @@ closeTonicModal.addEventListener('click', () => {
 
 document.querySelector('.tonic-title').textContent = projects[0].name;
 
-document.querySelector('.tonic-stack1').textContent =
-  projects[0].stacks[0].toUpperCase();
+document.querySelector('.tonic-stack1').textContent = projects[0].stacks[0].toUpperCase();
 document.querySelector('.tonic-stack2').textContent = projects[0].stacks[1];
 document.querySelector('.tonic-stack3').textContent = projects[0].stacks[2];
-document.querySelector('.tonic-description').textContent =
-  projects[0].description;
+document.querySelector('.tonic-description').textContent = projects[0].description;
 document.querySelector('.tonic-image').src = projects[0].featuredImage;
 document.querySelector('.tonic-html').textContent = projects[0].technologies[0];
 document.querySelector('.tonic-css').textContent = projects[0].technologies[1];
-document.querySelector('.tonic-javascript').textContent =
-  projects[0].technologies[2];
+document.querySelector('.tonic-javascript').textContent = projects[0].technologies[2];
 document.querySelector('.tonic-ruby').textContent = projects[0].technologies[3];
 
 
