@@ -22,7 +22,7 @@
 
 .tonic-modal {
   width: 50%;
-  max-height: 94%;
+  max-height: 95%;
   padding: 30px 50px;
   background-color: #fff;
   border-radius: 24px;
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 25px;
   color: #091e42;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .tonic-modal p {
-  margin: 20px 0;
+  margin: 10px 0;
   opacity: 0.8;
 }
 
