@@ -38,12 +38,6 @@
   color: #091e42;
 }
 
-.multipost-stacks ul li:first-child {
-  color: #344563;
-  font-weight: 500;
-  list-style: none;
-}
-
 .multipost-stacks ul li {
   font-style: normal;
   font-weight: normal;
@@ -52,6 +46,12 @@
   color: #6b778c;
   list-style-type: disc;
   margin-right: 32px;
+}
+
+.multipost-stacks ul li:first-child {
+  color: #344563;
+  font-weight: 500;
+  list-style: none;
 }
 
 .multipost-modal .image-holder {

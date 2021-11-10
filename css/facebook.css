@@ -38,12 +38,6 @@
   color: #091e42;
 }
 
-.facebook-stacks ul li:first-child {
-  color: #344563;
-  font-weight: 500;
-  list-style: none;
-}
-
 .facebook-stacks ul li {
   font-style: normal;
   font-weight: normal;
@@ -52,6 +46,12 @@
   color: #6b778c;
   list-style-type: disc;
   margin-right: 32px;
+}
+
+.facebook-stacks ul li:first-child {
+  color: #344563;
+  font-weight: 500;
+  list-style: none;
 }
 
 .facebook-modal .image-holder {
