@@ -18,19 +18,21 @@
     />
 
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/tonic.css" />
+    <link rel="stylesheet" href="./css/multipost.css" />
+    <link rel="stylesheet" href="./css/facebook.css" />
+    <link rel="stylesheet" href="./css/uber.css" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-W80PCKETEE"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W80PCKETEE"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-W80PCKETEE");
+      gtag('config', 'G-W80PCKETEE');
     </script>
     <title>Amkam's Portfolio</title>
   </head>
@@ -63,10 +65,9 @@
       <div class="headline-texts">
         <h1 class="intro-text">I’m Amadu <br />Glad to see you!</h1>
         <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
+          I’m a software developer! I can help you build a product , feature or website Look through
+          some of my work and experience! If you like what you see and have a project you need
+          coded, don’t hestiate to contact me.
         </p>
         <div class="connect-link"><a href="#contact-me">Let's Connect</a></div>
         <ul>
@@ -81,9 +82,7 @@
             ></a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
-              target="blank"
+            <a href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/" target="blank"
               ><i class="fab fa-linkedin-in network-link"></i
             ></a>
           </li>
@@ -112,8 +111,7 @@
             <li>2015</li>
           </ul>
           <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -122,17 +120,72 @@
             <li class="tag">javascript</li>
           </ul>
           <div class="action">
-            <button type="button">See Project</button>
+            <button type="button" id="open-tonic-modal" data-id="1">See Project</button>
+          </div>
+        </div>
+
+        <!-- Work 1 Modal -->
+        <div class="tonic-modal-container" id="tonic-modal-container">
+          <div class="tonic-modal">
+            <h1 class="tonic-title">Title</h1>
+            <div class="tonic-stacks">
+              <ul>
+                <li class="tonic-stack1"></li>
+                <li class="tonic-stack2"></li>
+                <li class="tonic-stack3"></li>
+              </ul>
+            </div>
+            <div class="image-holder">
+              <img src="images/projects/Tonic" alt="tonic" class="tonic-image" />
+            </div>
+            <div class="tonic-contents">
+              <p class="tonic-description"></p>
+              <div class="technologies">
+                <ul>
+                  <li class="tonic-html"></li>
+                  <li class="tonic-css"></li>
+                  <li class="tonic-javascript"></li>
+                  <li class="tonic-ruby">ruby on rails</li>
+                </ul>
+              </div>
+              <div class="network">
+                <a
+                  href="https://amadukamara.github.io/portfolio/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span>See Live</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path></svg
+                ></a>
+                <a
+                  href="https://github.com/AmaduKamara/portfolio"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>See Source</span>
+                  <i class="fab fa-github-square network-link"></i>
+                </a>
+              </div>
+            </div>
+            <button id="tonic-modal-close" type="button">X</button>
           </div>
         </div>
       </div>
 
       <div class="work">
         <div class="right-block right-block-one-2">
-          <img
-            src="./images/projects/Multi-Post-One.png"
-            alt="Multi-Post Stores Project 1"
-          />
+          <img src="./images/projects/Multi-Post-One.png" alt="Multi-Post Stores Project 1" />
         </div>
         <div class="left-block left-block-one-2">
           <h3 class="work-title">Multi-Post Stores</h3>
@@ -144,9 +197,8 @@
             <li>2015</li>
           </ul>
           <p>
-            Experimental content creation feature that allows users to add to an
-            existing story over the course of a day without spamming their
-            friends.
+            Experimental content creation feature that allows users to add to an existing story over
+            the course of a day without spamming their friends.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -155,13 +207,72 @@
             <li class="tag">javascript</li>
           </ul>
           <div class="action">
-            <button type="button">See Project</button>
+            <button type="button" id="open-multipost-modal" data-id="2">See Project</button>
+          </div>
+        </div>
+
+        <!-- work 2 modal -->
+        <div class="multipost-modal-container" id="multipost-modal-container">
+          <div class="multipost-modal">
+            <h1 class="multipost-title">Title</h1>
+            <div class="multipost-stacks">
+              <ul>
+                <li class="multipost-stack1"></li>
+                <li class="multipost-stack2"></li>
+                <li class="multipost-stack3"></li>
+              </ul>
+            </div>
+            <div class="image-holder">
+              <img
+                src="/images/projects/Multi-Post-One.png"
+                alt="multipost"
+                class="multipost-image"
+              />
+            </div>
+            <div class="multipost-contents">
+              <p class="multipost-description"></p>
+              <div class="technologies">
+                <ul>
+                  <li class="multipost-html"></li>
+                  <li class="multipost-css"></li>
+                  <li class="multipost-javascript"></li>
+                  <li class="multipost-ruby">ruby on rails</li>
+                </ul>
+              </div>
+              <div class="network">
+                <a
+                  href="https://amadukamara.github.io/portfolio/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span>See Live</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path></svg
+                ></a>
+                <a href="https://github.com/AmaduKamara" target="_blank" rel="noreferrer noopener">
+                  <span>See Source</span>
+                  <i class="fab fa-github-square network-link"></i>
+                </a>
+              </div>
+            </div>
+            <button id="multipost-modal-close" type="button">X</button>
           </div>
         </div>
       </div>
+
       <div class="work">
         <div class="right-block right-block-one">
-          <img src="./images/projects/Facebook-360.png" alt="Tonic-2 Project" />
+          <img src="./images/projects/Facebook-360.png" alt="Facebook Project" />
         </div>
         <div class="left-block left-block-one">
           <h3 class="work-title">Facebook 360</h3>
@@ -173,8 +284,8 @@
             <li>2015</li>
           </ul>
           <p>
-            Exploring the future of media in Facebook's first Virtual Reality
-            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to
+            discover and enjoy 360 photos and videos on Gear VR.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -183,16 +294,72 @@
             <li class="tag">javascript</li>
           </ul>
           <div class="action">
-            <button type="button">See Project</button>
+            <button type="button" id="open-facebook-modal" data-id="3">See Project</button>
+          </div>
+        </div>
+
+        <!-- Work 3 Modal -->
+        <div class="facebook-modal-container" id="facebook-modal-container">
+          <div class="facebook-modal">
+            <h1 class="facebook-title">Title</h1>
+            <div class="facebook-stacks">
+              <ul>
+                <li class="facebook-stack1"></li>
+                <li class="facebook-stack2"></li>
+                <li class="facebook-stack3"></li>
+              </ul>
+            </div>
+            <div class="image-holder">
+              <img src="/images/projects/Facebook-360.png" alt="facebook" class="facebook-image" />
+            </div>
+            <div class="facebook-contents">
+              <p class="facebook-description"></p>
+              <div class="technologies">
+                <ul>
+                  <li class="facebook-html"></li>
+                  <li class="facebook-css"></li>
+                  <li class="facebook-javascript"></li>
+                  <li class="facebook-ruby">ruby on rails</li>
+                </ul>
+              </div>
+              <div class="network">
+                <a
+                  href="https://amadukamara.github.io/portfolio/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span>See Live</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path></svg
+                ></a>
+                <a
+                  href="https://github.com/AmaduKamara/portfolio"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>See Source</span>
+                  <i class="fab fa-github-square network-link"></i>
+                </a>
+              </div>
+            </div>
+            <button id="facebook-modal-close" type="button">X</button>
           </div>
         </div>
       </div>
+
       <div class="work">
         <div class="right-block right-block-one-2">
-          <img
-            src="./images/projects/Uber-Navigator.png"
-            alt="Multi-Post Stores Project 2"
-          />
+          <img src="./images/projects/Uber-Navigator.png" alt="Uber" />
         </div>
         <div class="left-block left-block-one-2">
           <h3 class="work-title">Uber Navigator</h3>
@@ -204,8 +371,8 @@
             <li>2015</li>
           </ul>
           <p>
-            A smart assistant to make driving more safe, efficient, and fun by
-            unlocking your most expensive computer: your car.
+            A smart assistant to make driving more safe, efficient, and fun by unlocking your most
+            expensive computer: your car.
           </p>
           <ul class="tags">
             <li class="tag">html</li>
@@ -214,7 +381,65 @@
             <li class="tag">javascript</li>
           </ul>
           <div class="action">
-            <button type="button">See Project</button>
+            <button type="button" id="open-uber-modal" data-id="4">See Project</button>
+          </div>
+        </div>
+
+        <!-- Work 4 Modal -->
+        <div class="uber-modal-container" id="uber-modal-container">
+          <div class="uber-modal">
+            <h1 class="uber-title">Title</h1>
+            <div class="uber-stacks">
+              <ul>
+                <li class="uber-stack1"></li>
+                <li class="uber-stack2"></li>
+                <li class="uber-stack3"></li>
+              </ul>
+            </div>
+            <div class="image-holder">
+              <img src="/images/projects/Uber-Navigator.png" alt="uber" class="uber-image" />
+            </div>
+            <div class="uber-contents">
+              <p class="uber-description"></p>
+              <div class="technologies">
+                <ul>
+                  <li class="uber-html"></li>
+                  <li class="uber-css"></li>
+                  <li class="uber-javascript"></li>
+                  <li class="uber-ruby">ruby on rails</li>
+                </ul>
+              </div>
+              <div class="network">
+                <a
+                  href="https://amadukamara.github.io/portfolio/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  ><span>See Live</span>
+                  <svg
+                    class="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    ></path></svg
+                ></a>
+                <a
+                  href="https://github.com/AmaduKamara/portfolio"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>See Source</span>
+                  <i class="fab fa-github-square network-link"></i>
+                </a>
+              </div>
+            </div>
+            <button id="uber-modal-close" type="button">X</button>
           </div>
         </div>
       </div>
@@ -226,10 +451,9 @@
         <div class="about-texts">
           <h2>About <br />Myself</h2>
           <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
+            Hello I’m a software developer! I can help you build a product , feature or website Look
+            through some of my work and experience! If you like what you see and have a project you
+            need coded, don’t hestiate to contact me.
           </p>
           <div class="about-links">
             <div class="connect-link">
@@ -242,16 +466,12 @@
                 ></a>
               </li>
               <li>
-                <a
-                  href="https://www.facebook.com/amadus.kamara.7"
-                  target="blank"
+                <a href="https://www.facebook.com/amadus.kamara.7" target="blank"
                   ><i class="fab fa-facebook-square network-link"></i
                 ></a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/"
-                  target="blank"
+                <a href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/" target="blank"
                   ><i class="fab fa-linkedin-in network-link"></i
                 ></a>
               </li>
@@ -354,19 +574,12 @@
         <div class="footer-info">
           <h3>Contact me</h3>
           <p class="footer-info-text">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
+            If you have an application you are interested in developing, a feature that you need
+            built or a project that needs coding. I’d love to help with it
           </p>
         </div>
         <form action="https://formspree.io/f/xoqyzrdl" method="POST">
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Name"
-            required
-            maxlength="30"
-          />
+          <input type="text" name="user_name" placeholder="Name" required maxlength="30" />
           <input type="email" name="user_email" placeholder="Email" required />
           <textarea
             name="message"
@@ -381,6 +594,7 @@
       </footer>
       <div class="bottom-line"></div>
     </section>
-    <script src="app.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
   </body>
 </html>

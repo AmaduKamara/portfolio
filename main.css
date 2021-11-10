@@ -909,7 +909,6 @@ textarea {
 
   /* Animations And Transitions */
   button {
-    /* background-color: #6b778c; */
     transition: background-color 2s;
     cursor: pointer;
   }
