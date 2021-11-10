@@ -44,21 +44,21 @@ const closeTonicModal = document.querySelector('#tonic-modal-close');
 
 openTonicModal.addEventListener('click', (e) => {
   const tonic = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { 
-    name, 
-    description, 
-    featuredImage, 
-    technologies, 
-    stacks 
+  const {
+    name: projectName,
+    description: projectDescription,
+    featuredImage: projectFeaturedImage,
+    technologies: projectTechnologies,
+    stacks: projectStacks,
   } = tonic;
-  const [canopy, backend, year] = stacks;
-  const [html, css, js, ruby] = technologies;
-  document.querySelector('.tonic-title').textContent = name;
+  const [canopy, backend, year] = projectStacks;
+  const [html, css, js, ruby] = projectTechnologies;
+  document.querySelector('.tonic-title').textContent = projectName;
   document.querySelector('.tonic-stack1').textContent = canopy.toUpperCase();
   document.querySelector('.tonic-stack2').textContent = backend;
   document.querySelector('.tonic-stack3').textContent = year;
-  document.querySelector('.tonic-description').textContent = description;
-  document.querySelector('.tonic-image').src = featuredImage;
+  document.querySelector('.tonic-description').textContent = projectDescription;
+  document.querySelector('.tonic-image').src = projectFeaturedImage;
   document.querySelector('.tonic-html').textContent = html;
   document.querySelector('.tonic-css').textContent = css;
   document.querySelector('.tonic-javascript').textContent = js;
@@ -78,13 +78,7 @@ const closeMultipostModal = document.querySelector('#multipost-modal-close');
 
 openMultipostModal.addEventListener('click', (e) => {
   const multi = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { 
-    name, 
-    description, 
-    featuredImage, 
-    technologies, 
-    stacks 
-  } = multi;
+  const { name, description, featuredImage, technologies, stacks } = multi;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
   document.querySelector('.multipost-title').textContent = name;
@@ -112,13 +106,7 @@ const closeFacebookModal = document.querySelector('#facebook-modal-close');
 
 openFacebookModal.addEventListener('click', (e) => {
   const fbook = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { 
-    name, 
-    description, 
-    featuredImage, 
-    technologies, 
-    stacks 
-  } = fbook;
+  const { name, description, featuredImage, technologies, stacks } = fbook;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
   document.querySelector('.facebook-title').textContent = name;
@@ -146,13 +134,7 @@ const closeUberModal = document.querySelector('#uber-modal-close');
 
 openUberModal.addEventListener('click', (e) => {
   const uber = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
-  const { 
-    name, 
-    description, 
-    featuredImage, 
-    technologies, 
-    stacks 
-  } = uber;
+  const { name, description, featuredImage, technologies, stacks } = uber;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
   document.querySelector('.uber-title').textContent = name;
