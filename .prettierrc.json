@@ -1,6 +1,5 @@
 {
   "singleQuote": true,
-  "printWidth": 200,
-  "editor.formatOnSave": true,
+  "printWidth": 80,
   "prettier.semi": false
 }

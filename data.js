@@ -2,7 +2,8 @@ const projects = [
   {
     id: 1,
     name: 'Tonic',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './images/projects/Tonic-one.png',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -10,7 +11,8 @@ const projects = [
   {
     id: 2,
     name: 'Multi-Post Stores',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './images/projects/Multi-Post-One.png',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -18,7 +20,8 @@ const projects = [
   {
     id: 3,
     name: 'Facebook 360',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './images/projects/Facebook-360.png',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -26,7 +29,8 @@ const projects = [
   {
     id: 4,
     name: 'Uber Navigator',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './images/projects/Uber-Navigator.png',
     technologies: ['html', 'css', 'javascript', 'Ruby and rails'],
     stacks: ['canopy', 'Backend Dev', '2015'],
@@ -39,7 +43,9 @@ const tonicModalContainer = document.querySelector('.tonic-modal-container');
 const closeTonicModal = document.querySelector('#tonic-modal-close');
 
 openTonicModal.addEventListener('click', (e) => {
-  const tonic = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
+  const tonic = projects.find(
+    (project) => project.id === parseInt(e.currentTarget.dataset.id, 10)
+  );
   const { name, description, featuredImage, technologies, stacks } = tonic;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
@@ -63,16 +69,21 @@ closeTonicModal.addEventListener('click', () => {
 
 // Multipost-Store Modal Details
 const openMultipostModal = document.querySelector('#open-multipost-modal');
-const multipostModalContainer = document.querySelector('.multipost-modal-container');
+const multipostModalContainer = document.querySelector(
+  '.multipost-modal-container'
+);
 const closeMultipostModal = document.querySelector('#multipost-modal-close');
 
 openMultipostModal.addEventListener('click', (e) => {
-  const multi = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
+  const multi = projects.find(
+    (project) => project.id === parseInt(e.currentTarget.dataset.id, 10)
+  );
   const { name, description, featuredImage, technologies, stacks } = multi;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
   document.querySelector('.multipost-title').textContent = name;
-  document.querySelector('.multipost-stack1').textContent = canopy.toUpperCase();
+  document.querySelector('.multipost-stack1').textContent =
+    canopy.toUpperCase();
   document.querySelector('.multipost-stack2').textContent = backend;
   document.querySelector('.multipost-stack3').textContent = year;
   document.querySelector('.multipost-description').textContent = description;
@@ -91,11 +102,15 @@ closeMultipostModal.addEventListener('click', () => {
 
 // Facebook Modal Details
 const openFacebookModal = document.querySelector('#open-facebook-modal');
-const facebookModalContainer = document.querySelector('.facebook-modal-container');
+const facebookModalContainer = document.querySelector(
+  '.facebook-modal-container'
+);
 const closeFacebookModal = document.querySelector('#facebook-modal-close');
 
 openFacebookModal.addEventListener('click', (e) => {
-  const fbook = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
+  const fbook = projects.find(
+    (project) => project.id === parseInt(e.currentTarget.dataset.id, 10)
+  );
   const { name, description, featuredImage, technologies, stacks } = fbook;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
@@ -123,7 +138,9 @@ const uberModalContainer = document.querySelector('.uber-modal-container');
 const closeUberModal = document.querySelector('#uber-modal-close');
 
 openUberModal.addEventListener('click', (e) => {
-  const uber = projects.find((project) => project.id === parseInt(e.currentTarget.dataset.id, 10));
+  const uber = projects.find(
+    (project) => project.id === parseInt(e.currentTarget.dataset.id, 10)
+  );
   const { name, description, featuredImage, technologies, stacks } = uber;
   const [canopy, backend, year] = stacks;
   const [html, css, js, ruby] = technologies;
