@@ -130,6 +130,15 @@
 @media (max-width: 992px) {
   .multipost-modal {
     width: 80%;
-    max-width: 90%;
+    padding: 30px 20px;
   }
+
+  .multipost-modal h1 {
+    font-size: 25px;
+  }
+
+  .multipost-stacks ul li {
+    font-size: 12px;
+  }
+  
 }

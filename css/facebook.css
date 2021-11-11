@@ -130,6 +130,14 @@
 @media (max-width: 992px) {
   .facebook-modal {
     width: 80%;
-    max-width: 90%;
+    padding: 30px 20px;
+  }
+
+  .facebook-modal h1 {
+    font-size: 25px;
+  }
+
+  .facebook-stacks ul li {
+    font-size: 12px;
   }
 }
