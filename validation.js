@@ -14,4 +14,17 @@ const validateEmail = (value) => {
   return false;
 };
 
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
+  const messsageText = document.querySelector('.form-submission-error');
+  const emailInput = form.elements[1];
+  const email = validateEmail(emailInput.value);
+  if (email) {
+    messsageText.remove();
+    form.submit();
+    form.reset();
+  } else {
+    showMessage(message, false);
+  }
+});
