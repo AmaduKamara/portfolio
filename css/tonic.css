@@ -131,5 +131,14 @@
   .tonic-modal {
     width: 80%;
     max-width: 90%;
+    padding: 30px 20px;
+  }
+
+  .tonic-modal h1 {
+    font-size: 24px;
+  }
+
+  .tonic-stacks ul li {
+    font-size: 10px;
   }
 }
