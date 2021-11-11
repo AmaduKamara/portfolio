@@ -578,7 +578,7 @@
             built or a project that needs coding. I’d love to help with it
           </p>
         </div>
-        <form action="https://formspree.io/f/xoqyzrdl" method="POST">
+        <form action="https://formspree.io/f/xoqyzrdl" method="POST" class="contact-form">
           <input type="text" name="user_name" placeholder="Name" required maxlength="30" />
           <input type="email" name="user_email" placeholder="Email" required />
           <textarea
@@ -589,6 +589,7 @@
             required
             maxlength="500"
           ></textarea>
+          <div class="form-submission-error"></div>
           <button class="contact-button" type="submit">Get In Touch</button>
         </form>
       </footer>
@@ -596,5 +597,6 @@
     </section>
     <script src="app.js"></script>
     <script src="data.js"></script>
+    <script src="validation.js"></script>
   </body>
 </html>
