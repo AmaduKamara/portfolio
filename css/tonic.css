@@ -118,6 +118,7 @@
 .tonic-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
+  font-size: 12px;
 }
 
 .tonic-modal button:hover {
