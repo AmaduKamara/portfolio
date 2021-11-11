@@ -16,7 +16,7 @@ ul li {
 /* Main Styles */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   background: #f7f7f9;
   overflow-x: hidden;
@@ -123,7 +123,7 @@ header .menu-toggle.is-active .bar:nth-child(3) {
   height: 604px;
   align-items: center;
   background-color: #fff;
-  background-image: url("./images/Header\ bg.svg");
+  background-image: url('./images/Header\ bg.svg');
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 0 0 0 100px;
@@ -510,7 +510,7 @@ button {
   padding: 114px 24px 20px 24px;
   align-items: center;
   background-color: #6070ff;
-  background-image: url("./images/header-shapes\ mobile.png");
+  background-image: url('./images/header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -539,12 +539,23 @@ footer .footer-info h3 {
 footer form input,
 textarea {
   display: block;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   margin-top: 18px;
   border: none;
   border-radius: 8px;
   padding: 15px 16px;
+}
+
+.form-submission-error {
+  margin: 10px 0;
+}
+
+.error {
+  color: #e9bbba;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .contact-button {
@@ -680,7 +691,7 @@ textarea {
     padding: 114px 24px;
     height: 916px;
     background-color: #fff;
-    background-image: url("./images/Header\ bg.svg");
+    background-image: url('./images/Header\ bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -879,7 +890,7 @@ textarea {
 
   .footer-section {
     margin-top: -200px;
-    background-image: url("./images/contact\ form\ background\ shapes@2x.png");
+    background-image: url('./images/contact\ form\ background\ shapes@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 100px 0 0 0;
