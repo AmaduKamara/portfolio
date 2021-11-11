@@ -551,6 +551,13 @@ textarea {
   margin: 10px 0;
 }
 
+.error {
+  color: #e9bbba;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
 .contact-button {
   width: 162px;
   height: 48px;
