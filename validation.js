@@ -21,9 +21,20 @@ form.addEventListener('submit', (event) => {
   const emailInput = form.elements[1];
   const email = validateEmail(emailInput.value);
 
+  // Object to be stored to LocalStorage
+  const userData = {
+    name: document.getElementById('user-name').value,
+    email: document.getElementById('user-email').value,
+    message: document.getElementById('user-message').value,
+  };
+
   if (email) {
     messsageText.remove();
     form.submit();
+    
+    // Storing to local storage
+    localStorage.setItem('userData', JSON.stringify(userData));
+
     form.reset();
   } else {
     showMessage(message, false);
