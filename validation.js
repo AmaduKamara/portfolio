@@ -20,6 +20,7 @@ form.addEventListener('submit', (event) => {
   const messsageText = document.querySelector('.form-submission-error');
   const emailInput = form.elements[1];
   const email = validateEmail(emailInput.value);
+
   if (email) {
     messsageText.remove();
     form.submit();
