@@ -7,7 +7,7 @@ const projects = [
     featuredImage: './images/projects/Tonic-one.png',
     technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
-  },
+  }
   {
     id: 2,
     name: 'Multi-Post Stores',
