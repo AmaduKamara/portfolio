@@ -31,7 +31,7 @@ form.addEventListener('submit', (event) => {
   if (email) {
     messsageText.remove();
     form.submit();
-    
+
     // Storing to local storage
     localStorage.setItem('userData', JSON.stringify(userData));
 
@@ -40,3 +40,12 @@ form.addEventListener('submit', (event) => {
     showMessage(message, false);
   }
 });
+
+// Retrieving User data from local storage and pass into form input elements
+if (localStorage.getItem('userData') !== undefined) {
+  const userData = JSON.parse(localStorage.getItem('userData'));
+
+  form.elements.user_name.value = userData.name;
+  form.elements.user_email.value = userData.email;
+  form.elements.message.value = userData.message;
+}
