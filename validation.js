@@ -20,11 +20,32 @@ form.addEventListener('submit', (event) => {
   const messsageText = document.querySelector('.form-submission-error');
   const emailInput = form.elements[1];
   const email = validateEmail(emailInput.value);
+
+  // Object to be stored to LocalStorage
+  const userData = {
+    name: document.getElementById('user-name').value,
+    email: document.getElementById('user-email').value,
+    message: document.getElementById('user-message').value,
+  };
+
   if (email) {
     messsageText.remove();
     form.submit();
+
+    // Storing to local storage
+    localStorage.setItem('userData', JSON.stringify(userData));
+
     form.reset();
   } else {
     showMessage(message, false);
   }
 });
+
+// Retrieving User data from local storage and pass into form input elements
+if (localStorage.getItem('userData') !== undefined) {
+  const userData = JSON.parse(localStorage.getItem('userData'));
+
+  form.elements.user_name.value = userData.name;
+  form.elements.user_email.value = userData.email;
+  form.elements.message.value = userData.message;
+}
