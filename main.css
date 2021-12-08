@@ -694,6 +694,7 @@ textarea {
     background-image: url('./images/Header\ bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
   }
 
   .headline-texts {
